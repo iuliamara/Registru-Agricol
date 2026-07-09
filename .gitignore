@@ -1,0 +1,45 @@
+# Maven build output
+src/backend/target/
+**/target/
+
+# Node modules and Angular build output
+node_modules/
+**/node_modules/
+**/dist/
+**/.angular/
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+out/
+*.code-workspace
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crt
+*.p12
+*.jks
+
+# Local runtime / uploaded content
+/uploads/
+**/uploads/
+**/.DS_Store
+Thumbs.db
+
+# Local database / CI caches
+*.sqlite
+*.sqlite3
+*.db
+coverage/
+.cache/
+.tmp/
