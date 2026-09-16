@@ -1,0 +1,1387 @@
+C:\Users\dorho\.jdks\ms-21.0.9=C:\Users\dorho\.jdks\ms-21.0.9 : The term 
+'C:\Users\dorho\.jdks\ms-21.0.9=C:\Users\dorho\.jdks\ms-21.0.9' is not recognized as the name of a cmdlet, function, 
+script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is 
+correct and try again.
+At line:1 char:1
++ C:\Users\dorho\.jdks\ms-21.0.9='C:\Users\dorho\.jdks\ms-21.0.9'; c:\U ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\dorho\....jdks\ms-21.0.9:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+c:\Users\dorho\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand : The term 
+'c:\Users\dorho\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand' is not recognized as the 
+name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was 
+included, verify that the path is correct and try again.
+At line:1 char:66
++ ... ms-21.0.9'; c:\Users\dorho\AppData\Roaming\Code\User\globalStorage\gi ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (c:\Users\dorho\...at\debugCommand:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+c:\Users\dorho\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\copilotCli : The term 
+'c:\Users\dorho\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\copilotCli' is not recognized as the name 
+of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, 
+verify that the path is correct and try again.
+At line:1 char:154
++ ... ebugCommand;c:\Users\dorho\AppData\Roaming\Code\User\globalStorage\gi ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (c:\Users\dorho\...chat\copilotCli:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Python314\Scripts\ : The term 'C:\Python314\Scripts\' is not recognized as the name of a cmdlet, function, script 
+file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct 
+and try again.
+At line:1 char:240
++ ... lStorage\github.copilot-chat\copilotCli;C:\Python314\Scripts\;C:\Pyth ...
++                                             ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Python314\Scripts\:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Python314\ : The term 'C:\Python314\' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:262
++ ... b.copilot-chat\copilotCli;C:\Python314\Scripts\;C:\Python314\;C:\Prog ...
++                                                     ~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Python314\:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Program : The term 'C:\Program' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:276
++ ... hat\copilotCli;C:\Python314\Scripts\;C:\Python314\;C:\Program Files\M ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Program:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Program : The term 'C:\Program' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:312
++ ... ;C:\Python314\;C:\Program Files\Microsoft MPI\Bin\;C:\Program Files\C ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Program:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Windows\system32 : The term 'C:\Windows\system32' is not recognized as the name of a cmdlet, function, script file, 
+or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and 
+try again.
+At line:1 char:363
++ ... m Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Wind ...
++                                               ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Windows\system32:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Windows : The term 'C:\Windows' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:383
++ ... mon Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Wind ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Windows:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Windows\System32\Wbem : The term 'C:\Windows\System32\Wbem' is not recognized as the name of a cmdlet, function, 
+script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is 
+correct and try again.
+At line:1 char:394
++ ... apath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Wind ...
++                                          ~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Windows\System32\Wbem:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Windows\System32\WindowsPowerShell\v1.0\ : The term 'C:\Windows\System32\WindowsPowerShell\v1.0\' is not recognized 
+as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was 
+included, verify that the path is correct and try again.
+At line:1 char:419
++ ... ows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Wind ...
++                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Windows\Syst...owerShell\v1.0\:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Windows\System32\OpenSSH\ : The term 'C:\Windows\System32\OpenSSH\' is not recognized as the name of a cmdlet, 
+function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the 
+path is correct and try again.
+At line:1 char:463
++ ... System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Prog ...
++                                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Windows\System32\OpenSSH\:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Program : The term 'C:\Program' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:492
++ ... ndowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\d ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Program:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+x86 : The term 'x86' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the 
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:535
++ ... tem32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files (x86)\NVIDIA ...
++                                                               ~~~
+    + CategoryInfo          : ObjectNotFound: (x86:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Users\dorho\.jdks\ms-21.0.9\bin : The term 'C:\Users\dorho\.jdks\ms-21.0.9\bin' is not recognized as the name of a 
+cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify 
+that the path is correct and try again.
+At line:1 char:572
++ ... A Corporation\PhysX\Common;C:\Users\dorho\.jdks\ms-21.0.9\bin;C:\Prog ...
++                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\dorho\.jdks\ms-21.0.9\bin:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Program : The term 'C:\Program' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:607
++ ... on\PhysX\Common;C:\Users\dorho\.jdks\ms-21.0.9\bin;C:\Program Files\G ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Program:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Program : The term 'C:\Program' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:632
++ ... dorho\.jdks\ms-21.0.9\bin;C:\Program Files\Git\cmd;C:\Program Files\G ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Program:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Program : The term 'C:\Program' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:657
++ ... ;C:\Program Files\Git\cmd;C:\Program Files\Git\bin;C:\Program Files\s ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Program:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+x86 : The term 'x86' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the 
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:702
++ ... iles\Git\bin;C:\Program Files\swipl\bin;C:\Program Files (x86)\Micros ...
++                                                               ~~~
+    + CategoryInfo          : ObjectNotFound: (x86:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Program : The term 'C:\Program' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:744
++ ... m Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\M ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Program:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Program : The term 'C:\Program' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:798
++ ... Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\M ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Program:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Program : The term 'C:\Program' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:868
++ ... crosoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\M ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Program:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Program : The term 'C:\Program' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:920
++ ... :\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\M ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Program:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Program : The term 'C:\Program' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:972
++ ... :\Program Files\Microsoft SQL Server\170\DTS\Binn\;C:\Program Files\n ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Program:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\ProgramData\chocolatey\bin : The term 'C:\ProgramData\chocolatey\bin' is not recognized as the name of a cmdlet, 
+function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the 
+path is correct and try again.
+At line:1 char:997
++ ... \Binn\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Prog ...
++                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\ProgramData\chocolatey\bin:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Program : The term 'C:\Program' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1027
++ ... rogram Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\P ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Program:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Program : The term 'C:\Program' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1051
++ ... ProgramData\chocolatey\bin;C:\Program Files\PuTTY\;C:\Program Files\D ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Program:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Users\dorho\AppData\Local\Programs\Python\Python311\Scripts\ : The term 
+'C:\Users\dorho\AppData\Local\Programs\Python\Python311\Scripts\' is not recognized as the name of a cmdlet, function, 
+script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is 
+correct and try again.
+At line:1 char:1096
++ ... sources\bin;C:\Users\dorho\AppData\Local\Programs\Python\Python311\Sc ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\dorho\...hon311\Scripts\:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Users\dorho\AppData\Local\Programs\Python\Python311\ : The term 
+'C:\Users\dorho\AppData\Local\Programs\Python\Python311\' is not recognized as the name of a cmdlet, function, script 
+file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct 
+and try again.
+At line:1 char:1160
++ ... 11\Scripts\;C:\Users\dorho\AppData\Local\Programs\Python\Python311\;C ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\dorho\...thon\Python311\:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Users\dorho\AppData\Local\Microsoft\WindowsApps : The term 'C:\Users\dorho\AppData\Local\Microsoft\WindowsApps' is 
+not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or 
+if a path was included, verify that the path is correct and try again.
+At line:1 char:1216
++ ... \Python311\;C:\Users\dorho\AppData\Local\Microsoft\WindowsApps;C:\Use ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\dorho\...oft\WindowsApps:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Users\dorho\AppData\Local\Programs\Microsoft : The term 'C:\Users\dorho\AppData\Local\Programs\Microsoft' is not 
+recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if 
+a path was included, verify that the path is correct and try again.
+At line:1 char:1267
++ ... t\WindowsApps;C:\Users\dorho\AppData\Local\Programs\Microsoft VS Code ...
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\dorho\...grams\Microsoft:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Users\dorho\AppData\Roaming\npm : The term 'C:\Users\dorho\AppData\Roaming\npm' is not recognized as the name of a 
+cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify 
+that the path is correct and try again.
+At line:1 char:1327
++ ... rams\Microsoft VS Code\bin;C:\Users\dorho\AppData\Roaming\npm;C:\Prog ...
++                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\dorho\AppData\Roaming\npm:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Program : The term 'C:\Program' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1362
++ ... oft VS Code\bin;C:\Users\dorho\AppData\Roaming\npm;C:\Program Files\J ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Program:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Users\dorho\.dotnet\tools : The term 'C:\Users\dorho\.dotnet\tools' is not recognized as the name of a cmdlet, 
+function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the 
+path is correct and try again.
+At line:1 char:1420
++ ... s\JetBrains Rider 2025.3.0.3\bin;C:\Users\dorho\.dotnet\tools;C:\Prog ...
++                                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\dorho\.dotnet\tools:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Program : The term 'C:\Program' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1449
++ ...  Rider 2025.3.0.3\bin;C:\Users\dorho\.dotnet\tools;C:\Program Files\J ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Program:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Users\dorho\AppData\Local\GitHubDesktop\bin : The term 'C:\Users\dorho\AppData\Local\GitHubDesktop\bin' is not 
+recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if 
+a path was included, verify that the path is correct and try again.
+At line:1 char:1498
++ ... m 2025.3.3\bin;C:\Users\dorho\AppData\Local\GitHubDesktop\bin;C:\Prog ...
++                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\dorho\...tHubDesktop\bin:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Program : The term 'C:\Program' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1545
++ ... bin;C:\Users\dorho\AppData\Local\GitHubDesktop\bin;C:\Program Files\J ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Program:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Program : The term 'C:\Program' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1594
++ ... n;C:\Program Files\JetBrains\PhpStorm 2026.1.1\bin;C:\Program Files\J ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Program:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Users\dorho\AppData\Local\Programs\Antigravity : The term 'C:\Users\dorho\AppData\Local\Programs\Antigravity' is 
+not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or 
+if a path was included, verify that the path is correct and try again.
+At line:1 char:1642
++ ... 026.1.1\bin;C:\Users\dorho\AppData\Local\Programs\Antigravity IDE\bin ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\dorho\...ams\Antigravity:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+c:\Users\dorho\.vscode\extensions\ms-python.debugpy-2026.6.0-win32-x64\bundled\scripts\noConfigScripts : The term 
+'c:\Users\dorho\.vscode\extensions\ms-python.debugpy-2026.6.0-win32-x64\bundled\scripts\noConfigScripts' is not 
+recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if 
+a path was included, verify that the path is correct and try again.
+At line:1 char:1700
++ ... ity IDE\bin;c:\Users\dorho\.vscode\extensions\ms-python.debugpy-2026. ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (c:\Users\dorho\...noConfigScripts:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+c:\Users\dorho\.vscode\extensions\vscjava.vscode-java-debug-0.59.0\bundled\scripts\noConfigScripts : The term 
+'c:\Users\dorho\.vscode\extensions\vscjava.vscode-java-debug-0.59.0\bundled\scripts\noConfigScripts' is not recognized 
+as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was 
+included, verify that the path is correct and try again.
+At line:1 char:1803
++ ... nfigScripts;c:\Users\dorho\.vscode\extensions\vscjava.vscode-java-deb ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (c:\Users\dorho\...noConfigScripts:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+c:\Users\dorho\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\copilotCli : The term 
+'c:\Users\dorho\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\copilotCli' is not recognized as the name 
+of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, 
+verify that the path is correct and try again.
+At line:1 char:2032
++ ... ebugCommand;c:\Users\dorho\AppData\Roaming\Code\User\globalStorage\gi ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (c:\Users\dorho\...chat\copilotCli:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Python314\Scripts\ : The term 'C:\Python314\Scripts\' is not recognized as the name of a cmdlet, function, script 
+file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct 
+and try again.
+At line:1 char:2118
++ ... lStorage\github.copilot-chat\copilotCli;C:\Python314\Scripts\;C:\Pyth ...
++                                             ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Python314\Scripts\:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Python314\ : The term 'C:\Python314\' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:2140
++ ... b.copilot-chat\copilotCli;C:\Python314\Scripts\;C:\Python314\;C:\Prog ...
++                                                     ~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Python314\:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Program : The term 'C:\Program' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:2154
++ ... hat\copilotCli;C:\Python314\Scripts\;C:\Python314\;C:\Program Files\M ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Program:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Program : The term 'C:\Program' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:2190
++ ... ;C:\Python314\;C:\Program Files\Microsoft MPI\Bin\;C:\Program Files\C ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Program:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Windows\system32 : The term 'C:\Windows\system32' is not recognized as the name of a cmdlet, function, script file, 
+or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and 
+try again.
+At line:1 char:2241
++ ... m Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Wind ...
++                                               ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Windows\system32:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Windows : The term 'C:\Windows' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:2261
++ ... mon Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Wind ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Windows:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Windows\System32\Wbem : The term 'C:\Windows\System32\Wbem' is not recognized as the name of a cmdlet, function, 
+script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is 
+correct and try again.
+At line:1 char:2272
++ ... apath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Wind ...
++                                          ~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Windows\System32\Wbem:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Windows\System32\WindowsPowerShell\v1.0\ : The term 'C:\Windows\System32\WindowsPowerShell\v1.0\' is not recognized 
+as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was 
+included, verify that the path is correct and try again.
+At line:1 char:2297
++ ... ows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Wind ...
++                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Windows\Syst...owerShell\v1.0\:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Windows\System32\OpenSSH\ : The term 'C:\Windows\System32\OpenSSH\' is not recognized as the name of a cmdlet, 
+function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the 
+path is correct and try again.
+At line:1 char:2341
++ ... System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Prog ...
++                                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Windows\System32\OpenSSH\:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Program : The term 'C:\Program' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:2370
++ ... ndowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\d ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Program:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+x86 : The term 'x86' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the 
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:2413
++ ... tem32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files (x86)\NVIDIA ...
++                                                               ~~~
+    + CategoryInfo          : ObjectNotFound: (x86:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Users\dorho\.jdks\ms-21.0.9\bin : The term 'C:\Users\dorho\.jdks\ms-21.0.9\bin' is not recognized as the name of a 
+cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify 
+that the path is correct and try again.
+At line:1 char:2450
++ ... A Corporation\PhysX\Common;C:\Users\dorho\.jdks\ms-21.0.9\bin;C:\Prog ...
++                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\dorho\.jdks\ms-21.0.9\bin:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Program : The term 'C:\Program' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:2485
++ ... on\PhysX\Common;C:\Users\dorho\.jdks\ms-21.0.9\bin;C:\Program Files\G ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Program:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Program : The term 'C:\Program' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:2510
++ ... dorho\.jdks\ms-21.0.9\bin;C:\Program Files\Git\cmd;C:\Program Files\G ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Program:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Program : The term 'C:\Program' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:2535
++ ... ;C:\Program Files\Git\cmd;C:\Program Files\Git\bin;C:\Program Files\s ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Program:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+x86 : The term 'x86' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the 
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:2580
++ ... iles\Git\bin;C:\Program Files\swipl\bin;C:\Program Files (x86)\Micros ...
++                                                               ~~~
+    + CategoryInfo          : ObjectNotFound: (x86:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Program : The term 'C:\Program' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:2622
++ ... m Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\M ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Program:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Program : The term 'C:\Program' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:2676
++ ... Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\M ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Program:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Program : The term 'C:\Program' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:2746
++ ... crosoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\M ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Program:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Program : The term 'C:\Program' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:2798
++ ... :\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\M ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Program:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Program : The term 'C:\Program' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:2850
++ ... :\Program Files\Microsoft SQL Server\170\DTS\Binn\;C:\Program Files\n ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Program:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\ProgramData\chocolatey\bin : The term 'C:\ProgramData\chocolatey\bin' is not recognized as the name of a cmdlet, 
+function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the 
+path is correct and try again.
+At line:1 char:2875
++ ... \Binn\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Prog ...
++                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\ProgramData\chocolatey\bin:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Program : The term 'C:\Program' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:2905
++ ... rogram Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\P ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Program:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Program : The term 'C:\Program' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:2929
++ ... ProgramData\chocolatey\bin;C:\Program Files\PuTTY\;C:\Program Files\D ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Program:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Users\dorho\AppData\Local\Programs\Python\Python311\Scripts\ : The term 
+'C:\Users\dorho\AppData\Local\Programs\Python\Python311\Scripts\' is not recognized as the name of a cmdlet, function, 
+script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is 
+correct and try again.
+At line:1 char:2974
++ ... sources\bin;C:\Users\dorho\AppData\Local\Programs\Python\Python311\Sc ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\dorho\...hon311\Scripts\:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Users\dorho\AppData\Local\Programs\Python\Python311\ : The term 
+'C:\Users\dorho\AppData\Local\Programs\Python\Python311\' is not recognized as the name of a cmdlet, function, script 
+file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct 
+and try again.
+At line:1 char:3038
++ ... 11\Scripts\;C:\Users\dorho\AppData\Local\Programs\Python\Python311\;C ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\dorho\...thon\Python311\:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Users\dorho\AppData\Local\Microsoft\WindowsApps : The term 'C:\Users\dorho\AppData\Local\Microsoft\WindowsApps' is 
+not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or 
+if a path was included, verify that the path is correct and try again.
+At line:1 char:3094
++ ... \Python311\;C:\Users\dorho\AppData\Local\Microsoft\WindowsApps;C:\Use ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\dorho\...oft\WindowsApps:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Users\dorho\AppData\Local\Programs\Microsoft : The term 'C:\Users\dorho\AppData\Local\Programs\Microsoft' is not 
+recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if 
+a path was included, verify that the path is correct and try again.
+At line:1 char:3145
++ ... t\WindowsApps;C:\Users\dorho\AppData\Local\Programs\Microsoft VS Code ...
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\dorho\...grams\Microsoft:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Users\dorho\AppData\Roaming\npm : The term 'C:\Users\dorho\AppData\Roaming\npm' is not recognized as the name of a 
+cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify 
+that the path is correct and try again.
+At line:1 char:3205
++ ... rams\Microsoft VS Code\bin;C:\Users\dorho\AppData\Roaming\npm;C:\Prog ...
++                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\dorho\AppData\Roaming\npm:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Program : The term 'C:\Program' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:3240
++ ... oft VS Code\bin;C:\Users\dorho\AppData\Roaming\npm;C:\Program Files\J ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Program:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Users\dorho\.dotnet\tools : The term 'C:\Users\dorho\.dotnet\tools' is not recognized as the name of a cmdlet, 
+function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the 
+path is correct and try again.
+At line:1 char:3298
++ ... s\JetBrains Rider 2025.3.0.3\bin;C:\Users\dorho\.dotnet\tools;C:\Prog ...
++                                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\dorho\.dotnet\tools:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Program : The term 'C:\Program' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:3327
++ ...  Rider 2025.3.0.3\bin;C:\Users\dorho\.dotnet\tools;C:\Program Files\J ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Program:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Users\dorho\AppData\Local\GitHubDesktop\bin : The term 'C:\Users\dorho\AppData\Local\GitHubDesktop\bin' is not 
+recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if 
+a path was included, verify that the path is correct and try again.
+At line:1 char:3376
++ ... m 2025.3.3\bin;C:\Users\dorho\AppData\Local\GitHubDesktop\bin;C:\Prog ...
++                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\dorho\...tHubDesktop\bin:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Program : The term 'C:\Program' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:3423
++ ... bin;C:\Users\dorho\AppData\Local\GitHubDesktop\bin;C:\Program Files\J ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Program:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Program : The term 'C:\Program' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:3472
++ ... n;C:\Program Files\JetBrains\PhpStorm 2026.1.1\bin;C:\Program Files\J ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Program:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Users\dorho\AppData\Local\Programs\Antigravity : The term 'C:\Users\dorho\AppData\Local\Programs\Antigravity' is 
+not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or 
+if a path was included, verify that the path is correct and try again.
+At line:1 char:3520
++ ... 026.1.1\bin;C:\Users\dorho\AppData\Local\Programs\Antigravity IDE\bin ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\dorho\...ams\Antigravity:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+c:\Users\dorho\.vscode\extensions\ms-python.debugpy-2026.6.0-win32-x64\bundled\scripts\noConfigScripts : The term 
+'c:\Users\dorho\.vscode\extensions\ms-python.debugpy-2026.6.0-win32-x64\bundled\scripts\noConfigScripts' is not 
+recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if 
+a path was included, verify that the path is correct and try again.
+At line:1 char:3578
++ ... ity IDE\bin;c:\Users\dorho\.vscode\extensions\ms-python.debugpy-2026. ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (c:\Users\dorho\...noConfigScripts:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+c:\Users\dorho\.vscode\extensions\vscjava.vscode-java-debug-0.59.0\bundled\scripts\noConfigScripts : The term 
+'c:\Users\dorho\.vscode\extensions\vscjava.vscode-java-debug-0.59.0\bundled\scripts\noConfigScripts' is not recognized 
+as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was 
+included, verify that the path is correct and try again.
+At line:1 char:3681
++ ... nfigScripts;c:\Users\dorho\.vscode\extensions\vscjava.vscode-java-deb ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (c:\Users\dorho\...noConfigScripts:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+=C:\practica\Hangman\maven\apache-maven-3.9.6 : The term '=C:\practica\Hangman\maven\apache-maven-3.9.6' is not 
+recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if 
+a path was included, verify that the path is correct and try again.
+At line:1 char:3781
++ ... onfigScripts; ='C:\practica\Hangman\maven\apache-maven-3.9.6'; c:\Use ...
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (=C:\practica\Ha...che-maven-3.9.6:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+c:\Users\dorho\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand : The term 
+'c:\Users\dorho\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand' is not recognized as the 
+name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was 
+included, verify that the path is correct and try again.
+At line:1 char:3830
++ ... ven-3.9.6'; c:\Users\dorho\AppData\Roaming\Code\User\globalStorage\gi ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (c:\Users\dorho\...at\debugCommand:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+c:\Users\dorho\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\copilotCli : The term 
+'c:\Users\dorho\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\copilotCli' is not recognized as the name 
+of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, 
+verify that the path is correct and try again.
+At line:1 char:3918
++ ... ebugCommand;c:\Users\dorho\AppData\Roaming\Code\User\globalStorage\gi ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (c:\Users\dorho\...chat\copilotCli:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Python314\Scripts\ : The term 'C:\Python314\Scripts\' is not recognized as the name of a cmdlet, function, script 
+file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct 
+and try again.
+At line:1 char:4004
++ ... lStorage\github.copilot-chat\copilotCli;C:\Python314\Scripts\;C:\Pyth ...
++                                             ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Python314\Scripts\:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Python314\ : The term 'C:\Python314\' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:4026
++ ... b.copilot-chat\copilotCli;C:\Python314\Scripts\;C:\Python314\;C:\Prog ...
++                                                     ~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Python314\:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Program : The term 'C:\Program' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:4040
++ ... hat\copilotCli;C:\Python314\Scripts\;C:\Python314\;C:\Program Files\M ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Program:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Program : The term 'C:\Program' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:4076
++ ... ;C:\Python314\;C:\Program Files\Microsoft MPI\Bin\;C:\Program Files\C ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Program:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Windows\system32 : The term 'C:\Windows\system32' is not recognized as the name of a cmdlet, function, script file, 
+or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and 
+try again.
+At line:1 char:4127
++ ... m Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Wind ...
++                                               ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Windows\system32:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Windows : The term 'C:\Windows' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:4147
++ ... mon Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Wind ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Windows:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Windows\System32\Wbem : The term 'C:\Windows\System32\Wbem' is not recognized as the name of a cmdlet, function, 
+script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is 
+correct and try again.
+At line:1 char:4158
++ ... apath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Wind ...
++                                          ~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Windows\System32\Wbem:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Windows\System32\WindowsPowerShell\v1.0\ : The term 'C:\Windows\System32\WindowsPowerShell\v1.0\' is not recognized 
+as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was 
+included, verify that the path is correct and try again.
+At line:1 char:4183
++ ... ows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Wind ...
++                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Windows\Syst...owerShell\v1.0\:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Windows\System32\OpenSSH\ : The term 'C:\Windows\System32\OpenSSH\' is not recognized as the name of a cmdlet, 
+function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the 
+path is correct and try again.
+At line:1 char:4227
++ ... System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Prog ...
++                                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Windows\System32\OpenSSH\:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Program : The term 'C:\Program' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:4256
++ ... ndowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\d ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Program:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+x86 : The term 'x86' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the 
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:4299
++ ... tem32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files (x86)\NVIDIA ...
++                                                               ~~~
+    + CategoryInfo          : ObjectNotFound: (x86:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Users\dorho\.jdks\ms-21.0.9\bin : The term 'C:\Users\dorho\.jdks\ms-21.0.9\bin' is not recognized as the name of a 
+cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify 
+that the path is correct and try again.
+At line:1 char:4336
++ ... A Corporation\PhysX\Common;C:\Users\dorho\.jdks\ms-21.0.9\bin;C:\Prog ...
++                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\dorho\.jdks\ms-21.0.9\bin:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Program : The term 'C:\Program' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:4371
++ ... on\PhysX\Common;C:\Users\dorho\.jdks\ms-21.0.9\bin;C:\Program Files\G ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Program:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Program : The term 'C:\Program' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:4396
++ ... dorho\.jdks\ms-21.0.9\bin;C:\Program Files\Git\cmd;C:\Program Files\G ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Program:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Program : The term 'C:\Program' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:4421
++ ... ;C:\Program Files\Git\cmd;C:\Program Files\Git\bin;C:\Program Files\s ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Program:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+x86 : The term 'x86' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the 
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:4466
++ ... iles\Git\bin;C:\Program Files\swipl\bin;C:\Program Files (x86)\Micros ...
++                                                               ~~~
+    + CategoryInfo          : ObjectNotFound: (x86:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Program : The term 'C:\Program' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:4508
++ ... m Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\M ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Program:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Program : The term 'C:\Program' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:4562
++ ... Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\M ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Program:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Program : The term 'C:\Program' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:4632
++ ... crosoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\M ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Program:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Program : The term 'C:\Program' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:4684
++ ... :\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\M ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Program:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Program : The term 'C:\Program' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:4736
++ ... :\Program Files\Microsoft SQL Server\170\DTS\Binn\;C:\Program Files\n ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Program:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\ProgramData\chocolatey\bin : The term 'C:\ProgramData\chocolatey\bin' is not recognized as the name of a cmdlet, 
+function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the 
+path is correct and try again.
+At line:1 char:4761
++ ... \Binn\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Prog ...
++                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\ProgramData\chocolatey\bin:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Program : The term 'C:\Program' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:4791
++ ... rogram Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\P ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Program:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Program : The term 'C:\Program' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:4815
++ ... ProgramData\chocolatey\bin;C:\Program Files\PuTTY\;C:\Program Files\D ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Program:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Users\dorho\AppData\Local\Programs\Python\Python311\Scripts\ : The term 
+'C:\Users\dorho\AppData\Local\Programs\Python\Python311\Scripts\' is not recognized as the name of a cmdlet, function, 
+script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is 
+correct and try again.
+At line:1 char:4860
++ ... sources\bin;C:\Users\dorho\AppData\Local\Programs\Python\Python311\Sc ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\dorho\...hon311\Scripts\:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Users\dorho\AppData\Local\Programs\Python\Python311\ : The term 
+'C:\Users\dorho\AppData\Local\Programs\Python\Python311\' is not recognized as the name of a cmdlet, function, script 
+file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct 
+and try again.
+At line:1 char:4924
++ ... 11\Scripts\;C:\Users\dorho\AppData\Local\Programs\Python\Python311\;C ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\dorho\...thon\Python311\:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Users\dorho\AppData\Local\Microsoft\WindowsApps : The term 'C:\Users\dorho\AppData\Local\Microsoft\WindowsApps' is 
+not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or 
+if a path was included, verify that the path is correct and try again.
+At line:1 char:4980
++ ... \Python311\;C:\Users\dorho\AppData\Local\Microsoft\WindowsApps;C:\Use ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\dorho\...oft\WindowsApps:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Users\dorho\AppData\Local\Programs\Microsoft : The term 'C:\Users\dorho\AppData\Local\Programs\Microsoft' is not 
+recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if 
+a path was included, verify that the path is correct and try again.
+At line:1 char:5031
++ ... t\WindowsApps;C:\Users\dorho\AppData\Local\Programs\Microsoft VS Code ...
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\dorho\...grams\Microsoft:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Users\dorho\AppData\Roaming\npm : The term 'C:\Users\dorho\AppData\Roaming\npm' is not recognized as the name of a 
+cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify 
+that the path is correct and try again.
+At line:1 char:5091
++ ... rams\Microsoft VS Code\bin;C:\Users\dorho\AppData\Roaming\npm;C:\Prog ...
++                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\dorho\AppData\Roaming\npm:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Program : The term 'C:\Program' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:5126
++ ... oft VS Code\bin;C:\Users\dorho\AppData\Roaming\npm;C:\Program Files\J ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Program:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Users\dorho\.dotnet\tools : The term 'C:\Users\dorho\.dotnet\tools' is not recognized as the name of a cmdlet, 
+function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the 
+path is correct and try again.
+At line:1 char:5184
++ ... s\JetBrains Rider 2025.3.0.3\bin;C:\Users\dorho\.dotnet\tools;C:\Prog ...
++                                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\dorho\.dotnet\tools:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Program : The term 'C:\Program' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:5213
++ ...  Rider 2025.3.0.3\bin;C:\Users\dorho\.dotnet\tools;C:\Program Files\J ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Program:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Users\dorho\AppData\Local\GitHubDesktop\bin : The term 'C:\Users\dorho\AppData\Local\GitHubDesktop\bin' is not 
+recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if 
+a path was included, verify that the path is correct and try again.
+At line:1 char:5262
++ ... m 2025.3.3\bin;C:\Users\dorho\AppData\Local\GitHubDesktop\bin;C:\Prog ...
++                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\dorho\...tHubDesktop\bin:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Program : The term 'C:\Program' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:5309
++ ... bin;C:\Users\dorho\AppData\Local\GitHubDesktop\bin;C:\Program Files\J ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Program:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Program : The term 'C:\Program' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:5358
++ ... n;C:\Program Files\JetBrains\PhpStorm 2026.1.1\bin;C:\Program Files\J ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Program:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Users\dorho\AppData\Local\Programs\Antigravity : The term 'C:\Users\dorho\AppData\Local\Programs\Antigravity' is 
+not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or 
+if a path was included, verify that the path is correct and try again.
+At line:1 char:5406
++ ... 026.1.1\bin;C:\Users\dorho\AppData\Local\Programs\Antigravity IDE\bin ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\dorho\...ams\Antigravity:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+c:\Users\dorho\.vscode\extensions\ms-python.debugpy-2026.6.0-win32-x64\bundled\scripts\noConfigScripts : The term 
+'c:\Users\dorho\.vscode\extensions\ms-python.debugpy-2026.6.0-win32-x64\bundled\scripts\noConfigScripts' is not 
+recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if 
+a path was included, verify that the path is correct and try again.
+At line:1 char:5464
++ ... ity IDE\bin;c:\Users\dorho\.vscode\extensions\ms-python.debugpy-2026. ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (c:\Users\dorho\...noConfigScripts:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+c:\Users\dorho\.vscode\extensions\vscjava.vscode-java-debug-0.59.0\bundled\scripts\noConfigScripts : The term 
+'c:\Users\dorho\.vscode\extensions\vscjava.vscode-java-debug-0.59.0\bundled\scripts\noConfigScripts' is not recognized 
+as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was 
+included, verify that the path is correct and try again.
+At line:1 char:5567
++ ... nfigScripts;c:\Users\dorho\.vscode\extensions\vscjava.vscode-java-deb ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (c:\Users\dorho\...noConfigScripts:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+c:\Users\dorho\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\copilotCli : The term 
+'c:\Users\dorho\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\copilotCli' is not recognized as the name 
+of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, 
+verify that the path is correct and try again.
+At line:1 char:5810
++ ... ebugCommand;c:\Users\dorho\AppData\Roaming\Code\User\globalStorage\gi ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (c:\Users\dorho\...chat\copilotCli:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Python314\Scripts\ : The term 'C:\Python314\Scripts\' is not recognized as the name of a cmdlet, function, script 
+file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct 
+and try again.
+At line:1 char:5896
++ ... lStorage\github.copilot-chat\copilotCli;C:\Python314\Scripts\;C:\Pyth ...
++                                             ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Python314\Scripts\:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Python314\ : The term 'C:\Python314\' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:5918
++ ... b.copilot-chat\copilotCli;C:\Python314\Scripts\;C:\Python314\;C:\Prog ...
++                                                     ~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Python314\:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Program : The term 'C:\Program' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:5932
++ ... hat\copilotCli;C:\Python314\Scripts\;C:\Python314\;C:\Program Files\M ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Program:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Program : The term 'C:\Program' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:5968
++ ... ;C:\Python314\;C:\Program Files\Microsoft MPI\Bin\;C:\Program Files\C ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Program:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Windows\system32 : The term 'C:\Windows\system32' is not recognized as the name of a cmdlet, function, script file, 
+or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and 
+try again.
+At line:1 char:6019
++ ... m Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Wind ...
++                                               ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Windows\system32:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Windows : The term 'C:\Windows' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:6039
++ ... mon Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Wind ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Windows:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Windows\System32\Wbem : The term 'C:\Windows\System32\Wbem' is not recognized as the name of a cmdlet, function, 
+script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is 
+correct and try again.
+At line:1 char:6050
++ ... apath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Wind ...
++                                          ~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Windows\System32\Wbem:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Windows\System32\WindowsPowerShell\v1.0\ : The term 'C:\Windows\System32\WindowsPowerShell\v1.0\' is not recognized 
+as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was 
+included, verify that the path is correct and try again.
+At line:1 char:6075
++ ... ows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Wind ...
++                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Windows\Syst...owerShell\v1.0\:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Windows\System32\OpenSSH\ : The term 'C:\Windows\System32\OpenSSH\' is not recognized as the name of a cmdlet, 
+function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the 
+path is correct and try again.
+At line:1 char:6119
++ ... System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Prog ...
++                                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Windows\System32\OpenSSH\:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Program : The term 'C:\Program' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:6148
++ ... ndowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\d ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Program:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+x86 : The term 'x86' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the 
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:6191
++ ... tem32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files (x86)\NVIDIA ...
++                                                               ~~~
+    + CategoryInfo          : ObjectNotFound: (x86:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Users\dorho\.jdks\ms-21.0.9\bin : The term 'C:\Users\dorho\.jdks\ms-21.0.9\bin' is not recognized as the name of a 
+cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify 
+that the path is correct and try again.
+At line:1 char:6228
++ ... A Corporation\PhysX\Common;C:\Users\dorho\.jdks\ms-21.0.9\bin;C:\Prog ...
++                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\dorho\.jdks\ms-21.0.9\bin:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Program : The term 'C:\Program' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:6263
++ ... on\PhysX\Common;C:\Users\dorho\.jdks\ms-21.0.9\bin;C:\Program Files\G ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Program:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Program : The term 'C:\Program' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:6288
++ ... dorho\.jdks\ms-21.0.9\bin;C:\Program Files\Git\cmd;C:\Program Files\G ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Program:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Program : The term 'C:\Program' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:6313
++ ... ;C:\Program Files\Git\cmd;C:\Program Files\Git\bin;C:\Program Files\s ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Program:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+x86 : The term 'x86' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the 
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:6358
++ ... iles\Git\bin;C:\Program Files\swipl\bin;C:\Program Files (x86)\Micros ...
++                                                               ~~~
+    + CategoryInfo          : ObjectNotFound: (x86:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Program : The term 'C:\Program' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:6400
++ ... m Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\M ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Program:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Program : The term 'C:\Program' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:6454
++ ... Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\M ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Program:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Program : The term 'C:\Program' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:6524
++ ... crosoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\M ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Program:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Program : The term 'C:\Program' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:6576
++ ... :\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\M ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Program:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Program : The term 'C:\Program' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:6628
++ ... :\Program Files\Microsoft SQL Server\170\DTS\Binn\;C:\Program Files\n ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Program:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\ProgramData\chocolatey\bin : The term 'C:\ProgramData\chocolatey\bin' is not recognized as the name of a cmdlet, 
+function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the 
+path is correct and try again.
+At line:1 char:6653
++ ... \Binn\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Prog ...
++                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\ProgramData\chocolatey\bin:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Program : The term 'C:\Program' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:6683
++ ... rogram Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\P ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Program:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Program : The term 'C:\Program' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:6707
++ ... ProgramData\chocolatey\bin;C:\Program Files\PuTTY\;C:\Program Files\D ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Program:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Users\dorho\AppData\Local\Programs\Python\Python311\Scripts\ : The term 
+'C:\Users\dorho\AppData\Local\Programs\Python\Python311\Scripts\' is not recognized as the name of a cmdlet, function, 
+script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is 
+correct and try again.
+At line:1 char:6752
++ ... sources\bin;C:\Users\dorho\AppData\Local\Programs\Python\Python311\Sc ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\dorho\...hon311\Scripts\:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Users\dorho\AppData\Local\Programs\Python\Python311\ : The term 
+'C:\Users\dorho\AppData\Local\Programs\Python\Python311\' is not recognized as the name of a cmdlet, function, script 
+file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct 
+and try again.
+At line:1 char:6816
++ ... 11\Scripts\;C:\Users\dorho\AppData\Local\Programs\Python\Python311\;C ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\dorho\...thon\Python311\:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Users\dorho\AppData\Local\Microsoft\WindowsApps : The term 'C:\Users\dorho\AppData\Local\Microsoft\WindowsApps' is 
+not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or 
+if a path was included, verify that the path is correct and try again.
+At line:1 char:6872
++ ... \Python311\;C:\Users\dorho\AppData\Local\Microsoft\WindowsApps;C:\Use ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\dorho\...oft\WindowsApps:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Users\dorho\AppData\Local\Programs\Microsoft : The term 'C:\Users\dorho\AppData\Local\Programs\Microsoft' is not 
+recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if 
+a path was included, verify that the path is correct and try again.
+At line:1 char:6923
++ ... t\WindowsApps;C:\Users\dorho\AppData\Local\Programs\Microsoft VS Code ...
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\dorho\...grams\Microsoft:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Users\dorho\AppData\Roaming\npm : The term 'C:\Users\dorho\AppData\Roaming\npm' is not recognized as the name of a 
+cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify 
+that the path is correct and try again.
+At line:1 char:6983
++ ... rams\Microsoft VS Code\bin;C:\Users\dorho\AppData\Roaming\npm;C:\Prog ...
++                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\dorho\AppData\Roaming\npm:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Program : The term 'C:\Program' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:7018
++ ... oft VS Code\bin;C:\Users\dorho\AppData\Roaming\npm;C:\Program Files\J ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Program:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Users\dorho\.dotnet\tools : The term 'C:\Users\dorho\.dotnet\tools' is not recognized as the name of a cmdlet, 
+function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the 
+path is correct and try again.
+At line:1 char:7076
++ ... s\JetBrains Rider 2025.3.0.3\bin;C:\Users\dorho\.dotnet\tools;C:\Prog ...
++                                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\dorho\.dotnet\tools:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Program : The term 'C:\Program' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:7105
++ ...  Rider 2025.3.0.3\bin;C:\Users\dorho\.dotnet\tools;C:\Program Files\J ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Program:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Users\dorho\AppData\Local\GitHubDesktop\bin : The term 'C:\Users\dorho\AppData\Local\GitHubDesktop\bin' is not 
+recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if 
+a path was included, verify that the path is correct and try again.
+At line:1 char:7154
++ ... m 2025.3.3\bin;C:\Users\dorho\AppData\Local\GitHubDesktop\bin;C:\Prog ...
++                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\dorho\...tHubDesktop\bin:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Program : The term 'C:\Program' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:7201
++ ... bin;C:\Users\dorho\AppData\Local\GitHubDesktop\bin;C:\Program Files\J ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Program:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Program : The term 'C:\Program' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:7250
++ ... n;C:\Program Files\JetBrains\PhpStorm 2026.1.1\bin;C:\Program Files\J ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Program:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Users\dorho\AppData\Local\Programs\Antigravity : The term 'C:\Users\dorho\AppData\Local\Programs\Antigravity' is 
+not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or 
+if a path was included, verify that the path is correct and try again.
+At line:1 char:7298
++ ... 026.1.1\bin;C:\Users\dorho\AppData\Local\Programs\Antigravity IDE\bin ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\dorho\...ams\Antigravity:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+c:\Users\dorho\.vscode\extensions\ms-python.debugpy-2026.6.0-win32-x64\bundled\scripts\noConfigScripts : The term 
+'c:\Users\dorho\.vscode\extensions\ms-python.debugpy-2026.6.0-win32-x64\bundled\scripts\noConfigScripts' is not 
+recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if 
+a path was included, verify that the path is correct and try again.
+At line:1 char:7356
++ ... ity IDE\bin;c:\Users\dorho\.vscode\extensions\ms-python.debugpy-2026. ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (c:\Users\dorho\...noConfigScripts:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+c:\Users\dorho\.vscode\extensions\vscjava.vscode-java-debug-0.59.0\bundled\scripts\noConfigScripts : The term 
+'c:\Users\dorho\.vscode\extensions\vscjava.vscode-java-debug-0.59.0\bundled\scripts\noConfigScripts' is not recognized 
+as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was 
+included, verify that the path is correct and try again.
+At line:1 char:7459
++ ... nfigScripts;c:\Users\dorho\.vscode\extensions\vscjava.vscode-java-deb ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (c:\Users\dorho\...noConfigScripts:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+mvn : The term 'mvn' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the 
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:7616
++ ...  Set-Location 'C:\practica\Registru-Agricol\src\backend'; mvn -q spri ...
++                                                               ~~~
+    + CategoryInfo          : ObjectNotFound: (mvn:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
