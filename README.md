@@ -1,6 +1,8 @@
 # Registru-Agricol
 A full-stack, multi-tenant agricultural register platform designed to digitize and streamline agricultural administration.
 
+This project was developed collaboratively as part of a team project.
+
 The application provides a centralized environment for managing agricultural holdings, land parcels, citizens, administrative units, documents, and tenant-specific workflows. It supports multiple user roles, including citizens, tenant administrators, and super administrators, while maintaining secure data separation between tenants.
 
 Features
