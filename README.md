@@ -16,3 +16,37 @@ Administrative dashboards
 Public and tenant-specific database schemas
 REST API architecture
 Kafka-based messaging and integration support
+
+Tech Stack
+
+Backend
+
+Java
+Spring Boot
+Spring Security
+JPA / Hibernate
+Maven
+
+Frontend
+
+Angular
+npm
+
+Database
+
+PostgreSQL
+
+Infrastructure & Integration
+
+Docker
+Docker Compose
+Apache Kafka
+JWT Authentication
+Git
+
+
+Purpose
+
+The goal of the project is to reduce paperwork and improve the management of agricultural records by providing a secure and structured digital platform for public administration institutions, local agricultural offices, citizens, and platform administrators.
+
+The system focuses on data separation, traceability, transparency, and centralized management across multiple administrative tenants.
