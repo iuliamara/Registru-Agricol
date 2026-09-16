@@ -1,0 +1,103 @@
+<app-layout>
+  <app-breadcrumbs [items]="breadcrumbItems" style="display: block; margin-bottom: 14px;"></app-breadcrumbs>
+
+  <app-page-header 
+    [title]="isSuperAdmin ? 'Registrul Global de UAT-uri' : 'UAT-uri asignate'" 
+    [description]="viewMode === 'list' 
+      ? (isSuperAdmin ? 'Gestionarea centralizată a tuturor unităților administrativ-teritoriale din România.' : 'UAT-urile în care acest tenant este autorizat să opereze.')
+      : (viewMode === 'assign-picker' ? 'Selectați UAT-uri din registrul național pentru a le adăuga în acest tenant.' 
+      : (viewMode === 'create' ? 'Înregistrați o nouă unitate administrativ-teritorială (UAT) în registrul global.' 
+      : (viewMode === 'edit' ? 'Modificați detaliile UAT-ului selectat.' : '')))">
+  </app-page-header>
+
+  <div *ngIf="successMessage" style="background:#dcfce7;color:#15803d;border:1px solid #bbf7d0;border-radius:8px;padding:12px 16px;margin-bottom:16px;font-size:13px">
+    {{ successMessage }}
+  </div>
+  <div *ngIf="errorMessage" style="background:#fef2f2;color:#b91c1c;border:1px solid #fecaca;border-radius:8px;padding:12px 16px;margin-bottom:16px;font-size:13px">
+    {{ errorMessage }}
+  </div>
+  <div *ngIf="loadError" style="background:#fef2f2;color:#b91c1c;border:1px solid #fecaca;border-radius:8px;padding:12px 16px;margin-bottom:16px;font-size:13px">
+    {{ loadError }}
+  </div>
+
+  <!-- ── LIST MODE ───────────────────────────────────────────────────────── -->
+  <ng-container *ngIf="viewMode === 'list'">
+    <!-- SUPER ADMIN VIEW: Global Registry -->
+    <ng-container *ngIf="isSuperAdmin">
+      <app-generic-table
+        title="Registrul Național UAT"
+        [data]="allPublicUats"
+        [columns]="superAdminColumns"
+        [actions]="superAdminActions"
+        [filters]="superAdminFilters"
+        primaryActionText="Adăugare UAT Nou"
+        (primaryAction)="openCreateForm()"
+        emptyMessage="Nu există UAT-uri în registrul global.">
+      </app-generic-table>
+    </ng-container>
+
+    <!-- ADMIN / USER VIEW: Tenant local UATs -->
+    <ng-container *ngIf="isAdmin || isUser">
+      <app-generic-table
+        title="UAT-uri Active"
+        [data]="tenantUats"
+        [columns]="tenantColumns"
+        [actions]="tenantActions"
+        [filters]="tenantFilters"
+        [primaryActionText]="isAdmin ? 'Adaugă UAT din Registru' : undefined"
+        (primaryAction)="isAdmin ? openAssignPicker() : null"
+        emptyMessage="Nu aveți niciun UAT asignat.">
+      </app-generic-table>
+    </ng-container>
+  </ng-container>
+
+  <!-- ── ASSIGN PICKER MODE (Admin only) ─────────────────────────────────── -->
+  <ng-container *ngIf="viewMode === 'assign-picker'">
+    <div style="margin-bottom: 20px;">
+      <button class="btn-secondary" (click)="backToList()" style="display: flex; align-items: center; gap: 8px;">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M19 12H5M12 19l-7-7 7-7"/>
+        </svg>
+        Înapoi la lista tenant-ului
+      </button>
+    </div>
+    <app-generic-table
+      title="Registrul Global de UAT-uri"
+      [data]="allPublicUats"
+      [columns]="publicColumns"
+      [actions]="publicActions"
+      [filters]="publicFilters"
+      emptyMessage="Nu s-au găsit UAT-uri conform filtrelor.">
+    </app-generic-table>
+  </ng-container>
+
+  <!-- ── CREATE / EDIT MODE (Super Admin only) ───────────────────────────── -->
+  <div class="modal-overlay" *ngIf="viewMode === 'create' || viewMode === 'edit'" style="position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; background: rgba(15, 23, 42, 0.6); backdrop-filter: blur(4px); display: flex; align-items: center; justify-content: center; z-index: 1000; overflow-y: auto; padding: 20px;">
+    <div class="modal-content card" style="width: 100%; max-width: 600px; background: var(--card-bg); padding: 30px; border-radius: var(--radius-lg); box-shadow: var(--shadow-xl); position: relative;">
+      
+      <button (click)="backToList()" style="position: absolute; top: 15px; right: 15px; background: none; border: none; font-size: 24px; cursor: pointer; color: var(--text-muted);">&times;</button>
+      
+      <div class="form-section" style="margin-top: 10px;">
+        <div class="section-title">
+          <div class="section-icon">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="2" y="7" width="20" height="14" rx="2"/>
+              <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/>
+            </svg>
+          </div>
+          {{ viewMode === 'edit' ? 'Editare UAT (Global)' : 'Adăugare UAT Nou (Global)' }}
+        </div>
+
+        <app-generic-form 
+          [config]="formConfig" 
+          [initialData]="formInitialData"
+          (formSubmit)="saveUat($event)"
+          (formCancel)="backToList()">
+        </app-generic-form>
+      </div>
+    </div>
+  </div>
+
+
+
+</app-layout>

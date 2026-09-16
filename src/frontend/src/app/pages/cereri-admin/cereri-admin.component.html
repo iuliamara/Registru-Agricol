@@ -1,0 +1,142 @@
+<app-layout>
+  <div class="page-header">
+    <h1>Gestionare Cereri Adeverințe</h1>
+  </div>
+
+  <div class="tabs" style="display: flex; gap: 20px; border-bottom: 1px solid var(--border-color); margin-bottom: 20px;">
+    <button class="tab-btn" [class.active]="activeTab === 'PENDING'" (click)="setTab('PENDING')" 
+            style="background: none; border: none; padding: 10px 15px; font-weight: 600; cursor: pointer; border-bottom: 2px solid transparent; color: var(--text-muted);">
+      În Așteptare
+    </button>
+    <button class="tab-btn" [class.active]="activeTab === 'RESOLVED'" (click)="setTab('RESOLVED')"
+            style="background: none; border: none; padding: 10px 15px; font-weight: 600; cursor: pointer; border-bottom: 2px solid transparent; color: var(--text-muted);">
+      Rezolvate
+    </button>
+  </div>
+
+  <div style="display: flex; flex-direction: column; min-height: 520px;">
+    <div class="cards-grid">
+      <div class="cerere-card" *ngFor="let cerere of paginatedCereri" (click)="selectCerere(cerere)" [ngClass]="{'is-pending': cerere.status === 'PENDING'}">
+        <div class="card-header">
+          <span class="cerere-cod">{{ cerere.codCerere }}</span>
+          <span class="status-badge" [ngClass]="'status-' + cerere.status.toLowerCase()">
+            {{ cerere.status === 'PENDING' ? 'În Așteptare' : (cerere.status === 'ACCEPTED' ? 'Aprobată' : 'Respinsă') }}
+          </span>
+        </div>
+        <div class="card-body">
+          <span class="type-badge" style="display: inline-block; padding: 4px 8px; font-size: 0.75rem; border-radius: 4px; background-color: #f3f4f6; color: #4b5563; margin-bottom: 4px;">
+            {{ cerere.tipCerere === 'ELIBERARE_ATESTAT_PRODUCATOR' ? 'Atestat Producător' : (cerere.tipCerere === 'ELIBERARE_CARNET_COMERCIALIZARE' ? 'Carnet Comercializare' : (cerere.tipCerere === 'ADEVERINTA_ROL' ? 'Adeverință Rol' : 'Cerere Generală')) }}
+          </span>
+          <h3>{{ cerere.nume }}</h3>
+          <p class="date">{{ cerere.createdAt | date:'dd.MM.yyyy HH:mm' }}</p>
+        </div>
+      </div>
+    </div>
+
+    <div *ngIf="totalPages > 1" class="pagination-controls" style="display: flex; justify-content: center; gap: 15px; margin-top: auto; padding-top: 10px; align-items: center;">
+      <button (click)="setPage(currentPage - 1)" [disabled]="currentPage === 1" 
+              style="padding: 8px 16px; border: 1px solid var(--border-color); background: white; border-radius: 6px; cursor: pointer; color: var(--text-color);"
+              [style.opacity]="currentPage === 1 ? '0.5' : '1'" [style.cursor]="currentPage === 1 ? 'not-allowed' : 'pointer'">
+        Înapoi
+      </button>
+      <span style="font-size: 14px; font-weight: 500; color: var(--text-muted);">
+        Pagina {{ currentPage }} din {{ totalPages }}
+      </span>
+      <button (click)="setPage(currentPage + 1)" [disabled]="currentPage === totalPages"
+              style="padding: 8px 16px; border: 1px solid var(--border-color); background: white; border-radius: 6px; cursor: pointer; color: var(--text-color);"
+              [style.opacity]="currentPage === totalPages ? '0.5' : '1'" [style.cursor]="currentPage === totalPages ? 'not-allowed' : 'pointer'">
+        Înainte
+      </button>
+    </div>
+
+    <div *ngIf="filteredCereri.length === 0" style="text-align: center; padding: 40px; color: var(--text-muted);">
+      Nu există cereri în această categorie.
+    </div>
+  </div>
+</app-layout>
+
+<!-- Modal Detalii Cerere -->
+<div class="modal-overlay" *ngIf="selectedCerere" (click)="closeModal()">
+  <div class="modal-content" (click)="$event.stopPropagation()">
+    <div class="modal-header">
+      <h2>Detalii Cerere</h2>
+      <button class="btn-close" (click)="closeModal()">&times;</button>
+    </div>
+    
+    <div class="modal-body">
+      <div class="detail-row">
+        <span class="label">Cod Cerere:</span>
+        <span class="value font-mono">{{ selectedCerere.codCerere }}</span>
+      </div>
+      <div class="detail-row">
+        <span class="label">Status:</span>
+        <span class="value status-badge" [ngClass]="'status-' + selectedCerere.status.toLowerCase()">
+          {{ selectedCerere.status === 'PENDING' ? 'În Așteptare' : (selectedCerere.status === 'ACCEPTED' ? 'Aprobată' : 'Respinsă') }}
+        </span>
+      </div>
+      <div class="detail-row">
+        <span class="label">Tip Cerere:</span>
+        <span class="value font-bold" style="color: var(--primary-color);">
+          {{ selectedCerere.tipCerere === 'ELIBERARE_ATESTAT_PRODUCATOR' ? 'Atestat de Producător' : (selectedCerere.tipCerere === 'ELIBERARE_CARNET_COMERCIALIZARE' ? 'Carnet de Comercializare' : (selectedCerere.tipCerere === 'ADEVERINTA_ROL' ? 'Adeverință Rol' : 'Cerere Generală')) }}
+        </span>
+      </div>
+      <div class="detail-row">
+        <span class="label">Data depunerii:</span>
+        <span class="value">{{ selectedCerere.createdAt | date:'dd.MM.yyyy HH:mm' }}</span>
+      </div>
+      <div class="detail-row">
+        <span class="label">Solicitant:</span>
+        <span class="value font-bold">{{ selectedCerere.nume }}</span>
+      </div>
+      <div class="detail-row" *ngIf="selectedCerere.cnpCui">
+        <span class="label">CNP / CUI:</span>
+        <span class="value font-mono">{{ selectedCerere.cnpCui }}</span>
+      </div>
+      <div class="detail-row">
+        <span class="label">Domiciliu / Sediu:</span>
+        <span class="value">{{ selectedCerere.domiciliu }}</span>
+      </div>
+      <div class="detail-row" *ngIf="selectedCerere.telefon">
+        <span class="label">Telefon:</span>
+        <span class="value">{{ selectedCerere.telefon }}</span>
+      </div>
+      <div class="detail-row" *ngIf="selectedCerere.email">
+        <span class="label">Email:</span>
+        <span class="value">{{ selectedCerere.email }}</span>
+      </div>
+      <div class="detail-row" *ngIf="selectedCerere.numarCarteFunciara">
+        <span class="label">Nr. Carte Funciară:</span>
+        <span class="value">{{ selectedCerere.numarCarteFunciara }}</span>
+      </div>
+      <div class="detail-row" *ngIf="selectedCerere.numarCadastral">
+        <span class="label">Nr. Cadastral:</span>
+        <span class="value">{{ selectedCerere.numarCadastral }}</span>
+      </div>
+
+      <!-- Caseta informativă despre soluționare automată -->
+      <div *ngIf="selectedCerere.status === 'PENDING'" style="margin-top: 20px; padding: 15px; background-color: #f0fdf4; border: 1px solid #bbf7d0; border-radius: 8px; color: #166534;">
+        <h4 style="margin: 0 0 10px 0; display: flex; align-items: center; gap: 8px;">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><path d="M12 16v-4"></path><path d="M12 8h.01"></path></svg>
+          Soluționare Automată
+        </h4>
+        <p style="margin: 0; font-size: 0.9rem;">
+          Datele necesare (precum numărul de înregistrare, seria, valabilitatea) vor fi generate și salvate automat în momentul aprobării, în funcție de tipul cererii (Atestat, Carnet, Adeverință etc.).
+        </p>
+      </div>
+    </div>
+    
+    <div class="modal-footer" *ngIf="selectedCerere.status === 'PENDING'">
+      <button class="btn btn-danger" (click)="declineCerere()">Respinge</button>
+      <button class="btn btn-success" style="display: flex; align-items: center; gap: 8px;" (click)="acceptCerere()">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+        Soluționează și Aprobă
+      </button>
+    </div>
+    <div class="modal-footer" *ngIf="selectedCerere.status === 'ACCEPTED'">
+      <button class="btn btn-primary" style="display: flex; align-items: center; gap: 8px; margin-left: auto;" (click)="downloadCererePdf()">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+        Descarcă Document (PDF)
+      </button>
+    </div>
+  </div>
+</div>

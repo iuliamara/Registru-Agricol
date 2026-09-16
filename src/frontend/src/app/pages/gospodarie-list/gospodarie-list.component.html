@@ -1,0 +1,38 @@
+<app-layout>
+  <app-breadcrumbs [items]="breadcrumbItems"></app-breadcrumbs>
+  
+  <app-page-header 
+    title="Gospodării">
+  </app-page-header>
+
+      <!-- Banner UAT activ — apare doar pentru non-superadmin -->
+      <app-active-uat-banner 
+        *ngIf="activeUat && user?.role !== 'ROLE_SUPER_ADMIN'"
+        [prefix]="'Gospodării din:'"
+        [uatName]="activeUat.denumire">
+      </app-active-uat-banner>
+
+
+      <app-generic-table
+        [data]="gospodarii"
+        [columns]="columns"
+        [filters]="filters"
+        [actions]="actions"
+        [title]="'Gospodării'"
+        [itemsPerPage]="pageSize"
+        [serverSide]="true"
+        [totalServerPages]="totalPages"
+        [currentServerPage]="currentPage"
+        (pageChange)="onPageChange($event)"
+        (filterChange)="onFilterChange($event)"
+        [primaryActionText]="'Adaugă Gospodărie'"
+        (primaryAction)="goToCreate()">
+      </app-generic-table>
+</app-layout>
+
+<app-gospodarie-form
+  *ngIf="showGospodarieModal"
+  [isModal]="true"
+  [inputGospodarieId]="editGospodarieId"
+  (closeForm)="closeGospodarieModal()">
+</app-gospodarie-form>

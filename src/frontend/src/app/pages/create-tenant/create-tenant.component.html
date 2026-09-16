@@ -1,0 +1,248 @@
+<div class="app-shell">
+  <app-sidebar></app-sidebar>
+
+  <main class="main-content">
+    <header class="topbar">
+      <div class="topbar-spacer"></div>
+      <div class="user-chip">
+        <div class="user-info">
+          <div class="user-name">{{ user?.username || 'Admin User' }}</div>
+          <div class="user-role">{{ user?.role || 'Super Administrator' }}</div>
+        </div>
+        <div class="avatar">{{ (user?.username?.charAt(0) || 'A') | uppercase }}</div>
+      </div>
+      <button class="logout-btn" (click)="logout()">Deconectare</button>
+    </header>
+
+    <div class="page-content">
+      <app-breadcrumbs [items]="breadcrumbItems" style="display: block; margin-bottom: 14px;"></app-breadcrumbs>
+
+      <div class="page-header" style="display: flex; justify-content: space-between; align-items: center;">
+        <div>
+          <h1>Management Tenants</h1>
+          <p *ngIf="!showCreateForm && !editingTenant">Vizualizați toți tenanții înregistrați în platformă.</p>
+          <p *ngIf="showCreateForm">Înregistrați o nouă organizație agricolă sau primărie în ecosistemul de management.</p>
+          <p *ngIf="editingTenant">Modificați detaliile tenantului selectat.</p>
+        </div>
+      </div>
+
+      <div *ngIf="successMessage" style="background:#dcfce7;color:#15803d;border:1px solid #bbf7d0;border-radius:8px;padding:12px 16px;margin-bottom:16px;font-size:13px">
+        {{ successMessage }}
+      </div>
+      <div *ngIf="errorMessage" style="background:#fef2f2;color:#b91c1c;border:1px solid #fecaca;border-radius:8px;padding:12px 16px;margin-bottom:16px;font-size:13px">
+        {{ errorMessage }}
+      </div>
+
+      <!-- Generic Table View -->
+      <ng-container *ngIf="!showCreateForm && !selectedTenant && !editingTenant">
+        <app-generic-table
+          title="Tenants"
+          [data]="tenants"
+          [columns]="tableColumns"
+          [actions]="tableActions"
+          [filters]="tableFilters"
+          primaryActionText="Creare Tenant Nou"
+          (primaryAction)="openCreateForm()"
+          emptyMessage="Nu există tenanți.">
+        </app-generic-table>
+      </ng-container>
+
+      <!-- Tenant Details View -->
+      <div *ngIf="selectedTenant" style="display:flex; justify-content: center; gap: 60px; margin-top: 40px; align-items: start; max-width: 1000px; margin-left: auto; margin-right: auto;">
+        <div style="flex: 1; max-width: 600px; display:flex; flex-direction:column; gap:20px;">
+          
+          <button class="btn-secondary" style="align-self: flex-start; margin-bottom: 10px;" (click)="closeTenantDetails()">
+            ← Înapoi la listă
+          </button>
+
+          <div class="form-section">
+            <div class="section-title">
+              <div class="section-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+              </div>
+              Detalii Tenant
+            </div>
+            
+            <div style="margin-top: 15px;">
+              <p><strong>Nume Organizație:</strong> {{ selectedTenant.name }}</p>
+              <p><strong>Cod SIRUTA:</strong> {{ selectedTenant.id }}</p>
+              <p><strong>Schemă Bază de Date:</strong> <span style="font-family: monospace; color: var(--text-secondary);">{{ selectedTenant.schemaName }}</span></p>
+            </div>
+          </div>
+
+          <div class="form-section">
+            <div class="section-title">
+              <div class="section-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+              </div>
+              UAT-uri Asociate
+            </div>
+            
+            <div style="margin-top: 15px;">
+              <ul style="list-style: none; padding: 0; margin: 0;">
+                <li *ngFor="let uat of assignedUats" style="padding: 10px; background: var(--bg-color); border: 1px solid var(--border-color); border-radius: 6px; margin-bottom: 8px; display: flex; justify-content: space-between; align-items: center;">
+                  <div>
+                    <span style="font-weight: 500;">{{ uat.denumire }}</span>
+                    <span style="font-size: 12px; color: var(--text-secondary); margin-left: 10px;">SIRUTA: {{ uat.codSiruta }}</span>
+                  </div>
+                </li>
+                <li *ngIf="assignedUats.length === 0" style="padding: 10px; color: var(--text-secondary); font-size: 13px; text-align: center; background: var(--bg-color); border-radius: 6px; border: 1px dashed var(--border-color);">
+                  Nu există UAT-uri asociate acestui tenant.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Edit Tenant Form -->
+      <div *ngIf="editingTenant" style="display:flex; justify-content: center; gap: 60px; margin-top: 40px; align-items: start; max-width: 1000px; margin-left: auto; margin-right: auto;">
+        <div style="flex: 1; max-width: 600px; display:flex; flex-direction:column; gap:20px;">
+          <button class="btn-secondary" style="align-self: flex-start; margin-bottom: 10px;" (click)="closeEditTenant()">
+            ← Înapoi la listă
+          </button>
+          
+          <div class="form-section">
+            <div class="section-title">
+              <div class="section-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/>
+                  <path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/>
+                </svg>
+              </div>
+              Editare Detalii Tenant
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label>Nume Organizație</label>
+                <input type="text" class="form-control" [(ngModel)]="editingTenant.name" placeholder="ex: Primăria Comunei X">
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label>Cod SIRUTA (ID-ul Tenantului)</label>
+                <input type="text" class="form-control" [value]="editingTenant.id" disabled style="background: var(--bg-color); color: var(--text-secondary);">
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label>Nume Schemă Bază de Date</label>
+                <input type="text" class="form-control" [value]="editingTenant.schemaName" disabled style="background: var(--bg-color); color: var(--text-secondary); font-family: monospace;">
+              </div>
+            </div>
+
+            <div style="display:flex;gap:12px;margin-top:20px">
+              <button class="btn-secondary" (click)="closeEditTenant()" [disabled]="isSubmitting">Anulează</button>
+              <button class="btn-primary" (click)="saveEditTenant()" [disabled]="isSubmitting">
+                {{ isSubmitting ? 'Se salvează...' : 'Salvează Modificările' }}
+              </button>
+            </div>
+          </div>
+
+          <div class="form-section">
+            <div class="section-title">
+              <div class="section-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+              </div>
+              UAT-uri Asociate
+            </div>
+            
+            <div style="margin-top: 15px;">
+              <ul style="list-style: none; padding: 0; margin: 0;">
+                <li *ngFor="let uat of assignedUats" style="padding: 10px; background: var(--bg-color); border: 1px solid var(--border-color); border-radius: 6px; margin-bottom: 8px; display: flex; justify-content: space-between; align-items: center;">
+                  <div>
+                    <span style="font-weight: 500;">{{ uat.denumire }}</span>
+                    <span style="font-size: 12px; color: var(--text-secondary); margin-left: 10px;">SIRUTA: {{ uat.codSiruta }}</span>
+                  </div>
+                  <button class="btn-secondary" style="padding: 4px 8px; font-size: 11px; color: #b91c1c; border-color: #fca5a5; background: #fef2f2;" (click)="removeUat(uat)">
+                    Dezasociază
+                  </button>
+                </li>
+                <li *ngIf="assignedUats.length === 0" style="padding: 10px; color: var(--text-secondary); font-size: 13px; text-align: center; background: var(--bg-color); border-radius: 6px; border: 1px dashed var(--border-color);">
+                  Nu există UAT-uri asociate acestui tenant.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div style="flex: 0 0 350px;">
+          <div class="form-section">
+            <div class="section-title">
+              <div class="section-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+              </div>
+              Asociază UAT
+            </div>
+            <div style="margin-top: 15px;">
+              <p style="font-size: 13px; color: var(--text-secondary); margin-bottom: 10px;">
+                Adăugați un UAT disponibil sub jurisdicția acestui Tenant.
+              </p>
+              <div class="form-group" style="margin-bottom: 15px;">
+                <label>Selectați UAT</label>
+                <select class="form-control" [(ngModel)]="selectedUatToAssign">
+                  <option value="">-- Alegeți un UAT disponibil --</option>
+                  <option *ngFor="let uat of unassignedUats" [value]="uat.codSiruta">
+                    {{ uat.denumire }} ({{ uat.codSiruta }})
+                  </option>
+                </select>
+                <div *ngIf="unassignedUats.length === 0" style="font-size: 11.5px; color: #b91c1c; margin-top: 4px;">
+                  Nu există UAT-uri libere în sistem.
+                </div>
+              </div>
+              
+              <button class="btn-primary" style="width: 100%;" (click)="assignUat()" [disabled]="!selectedUatToAssign || isSubmitting">
+                {{ isSubmitting ? 'Se asociază...' : 'Asociază UAT' }}
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Form View -->
+      <div *ngIf="showCreateForm" style="display:flex; justify-content: center; gap: 60px; margin-top: 40px; align-items: start; max-width: 1000px; margin-left: auto; margin-right: auto;">
+        <div style="flex: 1; max-width: 600px; display:flex; flex-direction:column; gap:20px;">
+          <app-generic-form 
+            [config]="formConfig" 
+            [initialData]="formInitialData"
+            (formSubmit)="onCreateTenant($event)"
+            (formCancel)="cancel()">
+          </app-generic-form>
+        </div>
+        
+        <!-- Info Cards Sidebar -->
+        <div style="display:flex; flex-direction:column; gap:20px; position: sticky; top: 20px; width: 320px; flex-shrink: 0;">
+          <!-- Card 1: Ce este un Tenant -->
+          <div style="background: #fff; padding: 20px; border-radius: 12px; box-shadow: 0 4px 12px rgba(26, 107, 60, 0.05); border: 1px solid #e2efe6;">
+            <h4 style="margin: 0 0 12px 0; color: var(--primary); display: flex; align-items: center; gap: 8px; font-size: 15px;">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline>
+              </svg>
+              Ce este un Tenant?
+            </h4>
+            <p style="margin: 0; font-size: 13.5px; color: #4b5563; line-height: 1.6;">
+              În acest ecosistem, un <strong>Tenant</strong> reprezintă o entitate administrativă independentă (ex. o Primărie sau un UAT). Fiecare tenant operează în propriul său mediu izolat, asigurând securitatea și confidențialitatea datelor registrului agricol pentru fiecare localitate în parte.
+            </p>
+          </div>
+
+          <!-- Card 2: Cod SIRUTA -->
+          <div style="background: #fff; padding: 20px; border-radius: 12px; box-shadow: 0 4px 12px rgba(26, 107, 60, 0.05); border: 1px solid #e2efe6;">
+            <h4 style="margin: 0 0 12px 0; color: var(--primary); display: flex; align-items: center; gap: 8px; font-size: 15px;">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line>
+              </svg>
+              Despre Codul SIRUTA
+            </h4>
+            <p style="margin: 0; font-size: 13.5px; color: #4b5563; line-height: 1.6;">
+              <strong>SIRUTA</strong> (Sistemul Informatic al Registrului Unităților Teritorial-Administrative) este un cod unic la nivel național, atribuit fiecărei localități din România. Acest cod este esențial pentru identificarea și integrarea precisă a primăriei în bazele de date centrale.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</div>
+

@@ -1,0 +1,13 @@
+node_modules
+.angular
+dist
+.vscode
+tmp
+out-tsc
+.gitignore
+README.md
+npm-debug.log*
+.DS_Store
+.cache
+.idea
+.env
