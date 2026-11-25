@@ -1,5 +1,21 @@
 # Documentație Tehnică & Use Cases: Mențiuni Succesiuni și Urmărire Notificări Notari (SPN/BIN)
 
+> **Notă de verificare a sursei — 25 noiembrie 2026.** Textul original integral este păstrat mai jos pentru context și cazuri de utilizare. Documentația curentă verificată se află în [ghidul Portalului Instituțiilor](../Applications/Public-Institutions-Portal.md#succession-notices-and-death-records), [fluxuri](../Workflows.md#succession-correspondence) și [backend](../Backend.md#succession-processing). O copie a versiunii inițiale este păstrată în [arhivă](../Historical/pre-expansion/Docs/Derived/succesiuni_notificari_documentatie.md).
+
+Corecții importante față de descrierea originală:
+
+- Migrarea actuală este **V53**, iar persoanele fizice sunt un subtip în tabela **`persons`**, nu o tabelă `persoane_fizice` separată.
+- `notificari_succesiuni` este izolată prin **schema tenantului** și nu are coloana `tenant_id` descrisă mai jos.
+- Utilizatorul de operare este un nume preluat din contextul de securitate; acesta nu reprezintă o semnătură digitală criptografică.
+- Salvarea marchează decesul și înregistrează corespondența, apoi încearcă publicarea Kafka. Nu există trimitere automată verificată către notar, împărțirea moștenirii sau transferul dreptului de proprietate.
+- Consumatorul publică în `/topic/notificari/general`, însă componentele frontend curente nu se abonează la acest topic. Nu este demonstrată sincronizarea instantanee a listei de succesiuni.
+- Căutarea folosește un index SHA-256 cu salt configurat. CNP-ul este trimis în URL-ul API; afirmațiile originale despre absența totală din loguri și confidențialitatea garantată nu sunt justificate de cod.
+- Stadiile afișate sunt `TRIMIS`, `IN_LUCRU`, `FINALIZAT`, dar backend-ul acceptă orice șir nevid la actualizare. Verificați constrângerile efective, nu numai acest use case istoric.
+
+---
+
+## Documentul original păstrat
+
 Acest document descrie arhitectura, schema bazei de date, fluxurile de date și cazurile de utilizare (**Use Cases**) operaționale, axate pe utilizator, pentru modulul **„Mențiuni succesiuni și urmărirea notificărilor către notari publici (SPN/BIN)”**, integrat în sistemul multi-tenant Registru Agricol.
 
 ---

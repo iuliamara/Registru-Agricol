@@ -1,0 +1,488 @@
+[
+  {
+    "source": "Docs/Archive/AgricultureRegisterChangeLogV1.1.md",
+    "preserved": "Docs/Historical/Archive/AgricultureRegisterChangeLogV1.1.md",
+    "original_sha256": "7d51f6fffc0c4c53161247a5f1ef40da5b5b140cb91694aa9cb2415ed9ef9fc6",
+    "credential_redactions": 0,
+    "preserved_sha256": "e965b3033452e6fdbe07b969f030d05040b4004f48b4c817d3b754a508b5b819"
+  },
+  {
+    "source": "Docs/Archive/AgricultureRegisterV1.md",
+    "preserved": "Docs/Historical/Archive/AgricultureRegisterV1.md",
+    "original_sha256": "5a1d8ae1c4db12b726f0621a658dcf828ea7c17df65c094d0b76ad421e952c1c",
+    "credential_redactions": 0,
+    "preserved_sha256": "ecb36c3e128279024afcc5c5e44257d9da028e6aabbfa40fd0619180b4666fe3"
+  },
+  {
+    "source": "Docs/Archive/gospodarii_parcele_gis_documentation.md",
+    "preserved": "Docs/Historical/Archive/gospodarii_parcele_gis_documentation.md",
+    "original_sha256": "89fd9cf5edf0cf70ecda5fbdaa61c650493729daee7dc570e7e86ab218d0bc40",
+    "credential_redactions": 0,
+    "preserved_sha256": "651b4c9283d9fceb329b80199ff130d1f5630b13dcc8fb91b8069ff337c83441"
+  },
+  {
+    "source": "Docs/Archive/MODULES.md",
+    "preserved": "Docs/Historical/Archive/MODULES.md",
+    "original_sha256": "634905afb5b7994bc619f16f22433964919be63198372bebdb6ce0c98e956fe7",
+    "credential_redactions": 0,
+    "preserved_sha256": "4277fa9288467fd86829af2010ff98d79af328b5787b9a3f5541c73fc1b9125a"
+  },
+  {
+    "source": "Docs/Archive/Person_CRUD.md",
+    "preserved": "Docs/Historical/Archive/Person_CRUD.md",
+    "original_sha256": "19339e30588a549a8c8c43a11c52c5f837ae6c6d7e316cb8871b62063fdbfd15",
+    "credential_redactions": 0,
+    "preserved_sha256": "755a29eb6068a91f2911e3754f89528ed28ebf4d3707a237bad07ab4a4587207"
+  },
+  {
+    "source": "Docs/Archive/PersonModel.md",
+    "preserved": "Docs/Historical/Archive/PersonModel.md",
+    "original_sha256": "aeee35ee0ed2aa7e7dbc6be1fbc6f8462fe0b0e784ec669fb95ef1a81bc01656",
+    "credential_redactions": 0,
+    "preserved_sha256": "870c9415209693158c9c52320cf29c607caa71fb7fe8002fad369527baf73fa4"
+  },
+  {
+    "source": "Docs/Archive/plan_implementare_baza_date.md",
+    "preserved": "Docs/Historical/Archive/plan_implementare_baza_date.md",
+    "original_sha256": "bd30679e9f2bab7fcd8224019f4435a05ce91a1a289e3c9f4d2a7c083a932b71",
+    "credential_redactions": 0,
+    "preserved_sha256": "ea993f48c6435c6ae6d620e6dabaf9436b0feb0b80c5cbedcdc20a3cb2251044"
+  },
+  {
+    "source": "Docs/Archive/raport_modificari.md",
+    "preserved": "Docs/Historical/Archive/raport_modificari.md",
+    "original_sha256": "ec530e9b6f4f78261a592df54aad7b0315d54a88513e1e3da4048dc22775e3be",
+    "credential_redactions": 0,
+    "preserved_sha256": "71135a7d5845b8cf0cc3a74c9357663646997cf0708ce5056654a06d0daef8b9"
+  },
+  {
+    "source": "Docs/Archive/roadmap",
+    "preserved": "Docs/Historical/Archive/roadmap",
+    "original_sha256": "66eec606482a7b5d1e8be2a55123b5fe1776dbc5cd26d0eee7f4dad1af369287",
+    "credential_redactions": 0,
+    "preserved_sha256": "9fd9ba75529d2a36c5a30c5b9e895043e744a42d3615152b44455ecb9a278177",
+    "documentation_changed_lines": 1,
+    "documentation_revision": {
+      "date": "2026-11-25",
+      "prior_preserved_sha256": "dd24b8e06e1434bc5c6a155a4fe781cab4a4168d296c2ecbb10847a0ab221e63",
+      "changes": [
+        "Contextual English administrative application terminology update; Romanian wording, source identifiers and technical HTTP terminology preserved"
+      ]
+    }
+  },
+  {
+    "source": "Docs/BranchesDocumentation.md",
+    "preserved": "Docs/Historical/BranchesDocumentation.md",
+    "original_sha256": "a4abfcb22a79013832aa63cf11cfe8c3993a2a06487fad463f0cc5a8537cbd79",
+    "credential_redactions": 0,
+    "preserved_sha256": "47a84ef65fe5176c67f86c6be4dfdbf38429ab75b4fa8f9ba110701fc63bb561",
+    "documentation_changed_lines": 1,
+    "documentation_revision": {
+      "date": "2026-11-25",
+      "prior_preserved_sha256": "6bdfe8689875d15190dd7d265d10bf89969209b5ceb7847edb40db7201205c44",
+      "changes": [
+        "Corrected historical relative link to Original/CategorieFolosinta.md"
+      ]
+    }
+  },
+  {
+    "source": "Docs/Bugs/Lombok_JPA_Entities_Refactoring.md",
+    "preserved": "Docs/Historical/Bugs/Lombok_JPA_Entities_Refactoring.md",
+    "original_sha256": "0a4b06c21c6e13a23ffe67b99a8d988d4e64733f46fb65d4601ea8849d056e4b",
+    "credential_redactions": 0,
+    "preserved_sha256": "673cdae6feb13f10ff8f4623653a01195158b1a448797539c19838a7b34fef71"
+  },
+  {
+    "source": "Docs/Bugs/SecurityVulnerabilitiesFix.md",
+    "preserved": "Docs/Historical/Bugs/SecurityVulnerabilitiesFix.md",
+    "original_sha256": "930d0ecd70083d6c4dcdd25842b69c37da040639d00055313ae90f05e5bc286d",
+    "credential_redactions": 0,
+    "preserved_sha256": "e6b84e0b5cf43cb2fe1defab352bbc7bcf68b813f926d6ddbe0abbac25c1a752"
+  },
+  {
+    "source": "Docs/Bugs/sqli-after.png",
+    "preserved": "Docs/Historical/Bugs/sqli-after.png",
+    "original_sha256": "b3516673b83dad78ac71bdd81b006e755043001080dcb1be4ea66882112e02af",
+    "credential_redactions": 0,
+    "preserved_sha256": "b3516673b83dad78ac71bdd81b006e755043001080dcb1be4ea66882112e02af"
+  },
+  {
+    "source": "Docs/Bugs/sqli-before-1.png",
+    "preserved": "Docs/Historical/Bugs/sqli-before-1.png",
+    "original_sha256": "8113e8dcbf6e83d8ee40421445407cbbb383db3be01bc8edfd1407d5f8d32521",
+    "credential_redactions": 0,
+    "preserved_sha256": "8113e8dcbf6e83d8ee40421445407cbbb383db3be01bc8edfd1407d5f8d32521"
+  },
+  {
+    "source": "Docs/Bugs/sqli-before-2.png",
+    "preserved": "Docs/Historical/Bugs/sqli-before-2.png",
+    "original_sha256": "04f0484ca07b785a688d26e14cc8b963d75e52edf495b13ffd2c74709a7afa8a",
+    "credential_redactions": 0,
+    "preserved_sha256": "04f0484ca07b785a688d26e14cc8b963d75e52edf495b13ffd2c74709a7afa8a"
+  },
+  {
+    "source": "Docs/Bugs/SQLInjectionFix.md",
+    "preserved": "Docs/Historical/Bugs/SQLInjectionFix.md",
+    "original_sha256": "912c6ff572d358ec7a6693dd1ab19676c8d3df044f0f4b208c843175005c4e09",
+    "credential_redactions": 0,
+    "preserved_sha256": "eb8ab5c4486eef15a018c99b8fd4ac235e978b2924a6e305dc03caa7b3128d44"
+  },
+  {
+    "source": "Docs/BusinessAnalysis/CarteFunciara.md",
+    "preserved": "Docs/Historical/BusinessAnalysis/CarteFunciara.md",
+    "original_sha256": "a252357eaf18578d66e922e6753e9baa44959a8979d779e57f7d83ef40b55804",
+    "credential_redactions": 0,
+    "preserved_sha256": "80226406b7bad8cc169864806608154af19e363d87236002d0327c8ffad50356"
+  },
+  {
+    "source": "Docs/BusinessAnalysis/Cereri.md",
+    "preserved": "Docs/Historical/BusinessAnalysis/Cereri.md",
+    "original_sha256": "0f8c206e561e735ac18a4d8ccf8aa41ff8f4939dd0e5f079ca55d2b3de4d3008",
+    "credential_redactions": 0,
+    "preserved_sha256": "b579574af95223c4845eb2fe408918f154a94aa6517360088f7172524e0b2e42",
+    "documentation_changed_lines": 14,
+    "documentation_revision": {
+      "date": "2026-11-25",
+      "prior_preserved_sha256": "0a1e010743702f863006e365267d8f5c48cad510865e323bf8d262a318d1168b",
+      "changes": [
+        "Contextual English administrative application terminology update; Romanian wording, source identifiers and technical HTTP terminology preserved"
+      ]
+    }
+  },
+  {
+    "source": "Docs/BusinessAnalysis/Gospodarie.md",
+    "preserved": "Docs/Historical/BusinessAnalysis/Gospodarie.md",
+    "original_sha256": "eba56da58f53a0521801cb2624627143d6fb3bc877e2d279615ec7823d2ce4d3",
+    "credential_redactions": 0,
+    "preserved_sha256": "df0f3c6085153f50c09e9de0857b89badd21a4adbf9798604e495b5db81cc8a3"
+  },
+  {
+    "source": "Docs/BusinessAnalysis/MembriiGospodarie.md",
+    "preserved": "Docs/Historical/BusinessAnalysis/MembriiGospodarie.md",
+    "original_sha256": "f3fe3b390437d265991b1da4bde111e9df1bf428aaacafa48a7a091c633d6cc0",
+    "credential_redactions": 0,
+    "preserved_sha256": "7026a3cc4231e7cad48d0009938aedfa7043224c5d90f8c4e33f28626897e31f"
+  },
+  {
+    "source": "Docs/BusinessAnalysis/Parcele.md",
+    "preserved": "Docs/Historical/BusinessAnalysis/Parcele.md",
+    "original_sha256": "5dda3a8bf7d43fefcc16b66efb82e1d873edaf82874f7378587bd9ef1322d1fe",
+    "credential_redactions": 0,
+    "preserved_sha256": "5a9602a69cbdb366875a013d130b91c7f1488766247b6ff2dd9bc762ded2b027"
+  },
+  {
+    "source": "Docs/BusinessAnalysis/Persoane_IdentityDocs.md",
+    "preserved": "Docs/Historical/BusinessAnalysis/Persoane_IdentityDocs.md",
+    "original_sha256": "4e5369c5475e6f217acba1ec135a6a6f7e4515cf4aedcce67037496feee05eb2",
+    "credential_redactions": 0,
+    "preserved_sha256": "fc9e8a1950c5b360f05c7920d7377c69d278b7bc8affd7188d423844cc5f1ac0"
+  },
+  {
+    "source": "Docs/BusinessAnalysis/PortalCetateni.md",
+    "preserved": "Docs/Historical/BusinessAnalysis/PortalCetateni.md",
+    "original_sha256": "0f9110d55f59476752cef2ea3b5b183537a1d15506f4cba17109cf5950a39924",
+    "credential_redactions": 0,
+    "preserved_sha256": "b07f6def219d574cfee321eb5ea8fe19a200f9a33744f67feb716b568feaf464",
+    "documentation_changed_lines": 6,
+    "documentation_revision": {
+      "date": "2026-11-25",
+      "prior_preserved_sha256": "396e05e9c153eefbb823464f6858168916a3ff640c387ffb4f3ff1c97d7eba81",
+      "changes": [
+        "Contextual English administrative application terminology update; Romanian wording, source identifiers and technical HTTP terminology preserved"
+      ]
+    }
+  },
+  {
+    "source": "Docs/BusinessAnalysis/Terenuri.md",
+    "preserved": "Docs/Historical/BusinessAnalysis/Terenuri.md",
+    "original_sha256": "6e238d4ec1b12a8b1ea9790c90f13688e3e89801f9c9227ea19e9e1be3925c22",
+    "credential_redactions": 0,
+    "preserved_sha256": "46b222bbd73efa19de0c0a9f13e68315cf882084edd7395a61ed07c9d4c01c81"
+  },
+  {
+    "source": "Docs/Derived/cultura-parcela.md",
+    "preserved": "Docs/Historical/Derived/cultura-parcela.md",
+    "original_sha256": "e8403bb53556d7c156f5fd22d35116c88ab64dd95fec9ee749a6f7ddedd45d2f",
+    "credential_redactions": 0,
+    "preserved_sha256": "e9cc7a9632e6bc00f5aad44961de0fae7b5a82c1ec301289c6c7b9b5aa499b23",
+    "documentation_changed_lines": 1,
+    "documentation_revision": {
+      "date": "2026-11-25",
+      "prior_preserved_sha256": "12acc4e1e2a405e5471ec7740767ef247a85e35d01d250d631fde6ac63ee454b",
+      "changes": [
+        "Contextual English administrative application terminology update; Romanian wording, source identifiers and technical HTTP terminology preserved"
+      ]
+    }
+  },
+  {
+    "source": "Docs/Derived/document-repository.md",
+    "preserved": "Docs/Historical/Derived/document-repository.md",
+    "original_sha256": "de4a5ed2faaf9f0322b5a6cb63c33584fbdb8d5717b0bc42ec75b5e72f5e2441",
+    "credential_redactions": 0,
+    "preserved_sha256": "14fda3ea85927750eb40bdabf176f4ba66e76fa25fe3839d1f5320991344ea57"
+  },
+  {
+    "source": "Docs/Derived/entity-history-tracking.md",
+    "preserved": "Docs/Historical/Derived/entity-history-tracking.md",
+    "original_sha256": "294be079fb33e8b43097a4cc96a84047fc0bd4e0be351e94f80e0fa46f333196",
+    "credential_redactions": 0,
+    "preserved_sha256": "d1ec3ad9e39f2801109d94a1d8d25994fbe50e783f1f81de272e9f6929829c20"
+  },
+  {
+    "source": "Docs/Derived/evidenta-pomi.md",
+    "preserved": "Docs/Historical/Derived/evidenta-pomi.md",
+    "original_sha256": "514e8b5fc54fe0a723cc50cdbe802c1a67f4a39d18cde0c1b50d19b94041575d",
+    "credential_redactions": 0,
+    "preserved_sha256": "dc7d8e1437b30358225f2a64ca4fe8fd865e9aa08a29d7ee81c5c15f2bb12ee2",
+    "documentation_changed_lines": 1,
+    "documentation_revision": {
+      "date": "2026-11-25",
+      "prior_preserved_sha256": "102a4cd81770443e6b1480e8a089fb31e3b6abeb7ed5ab9985fd504c56012e30",
+      "changes": [
+        "Contextual English administrative application terminology update; Romanian wording, source identifiers and technical HTTP terminology preserved"
+      ]
+    }
+  },
+  {
+    "source": "Docs/Derived/gdpr-audit-logging.md",
+    "preserved": "Docs/Historical/Derived/gdpr-audit-logging.md",
+    "original_sha256": "396f48e0f1d4ac7426fd737c6c1f3dca1b1a65a24521eadfe1f826a8e1b95e50",
+    "credential_redactions": 0,
+    "preserved_sha256": "990311c6956f43c735be19d93c146ed56a6a3ba072f855da5fa7def03630a7a9",
+    "documentation_changed_lines": 1,
+    "documentation_revision": {
+      "date": "2026-11-25",
+      "prior_preserved_sha256": "9e34b7183e01a1eef5de86519075f23d0ddc4bf003c093d9cc73144642f02cbd",
+      "changes": [
+        "Contextual English administrative application terminology update; Romanian wording, source identifiers and technical HTTP terminology preserved"
+      ]
+    }
+  },
+  {
+    "source": "Docs/Derived/household-member-tracking.md",
+    "preserved": "Docs/Historical/Derived/household-member-tracking.md",
+    "original_sha256": "9a25388c296b556cdd05fc28e7017df353816bbd78d2836ea10a5c0bd5342caf",
+    "credential_redactions": 0,
+    "preserved_sha256": "392f21ce9fa4b9a7af737708df7eb86b25e8ba6891a633d4c1b2468c0851d78b"
+  },
+  {
+    "source": "Docs/Derived/lookup-tables.md",
+    "preserved": "Docs/Historical/Derived/lookup-tables.md",
+    "original_sha256": "6df0436cddca6846a00df12016659346f36a4905a71c0db242f80b7290d7b44f",
+    "credential_redactions": 0,
+    "preserved_sha256": "3538924b74d9837bde6d0fa1aded738ced0db3a82d3a1c8c2bc42e8ef245ecef"
+  },
+  {
+    "source": "Docs/Derived/statistici-export-excel.md",
+    "preserved": "Docs/Historical/Derived/statistici-export-excel.md",
+    "original_sha256": "c5ea3468fb576e1d011ed97188155811505a5380d680fbff2b8204d0e00652e5",
+    "credential_redactions": 0,
+    "preserved_sha256": "2cf1d4f839caea5cb61435e8ab17cd2f813a687d9b76f6ba94d4d34e2003d3df"
+  },
+  {
+    "source": "Docs/Derived/succesiuni_notificari_documentatie.md",
+    "preserved": "Docs/Historical/Derived/succesiuni_notificari_documentatie.md",
+    "original_sha256": "83f29e2d4adc62cd660053c563e08b8b9dc4203b52be368a2e9f2a6b8251abd8",
+    "credential_redactions": 0,
+    "preserved_sha256": "029d0f6abd9c1057e9ead28c8d6c4f4f7235b884da79826c4360170f7215508a"
+  },
+  {
+    "source": "Docs/Derived/sursa-apa.md",
+    "preserved": "Docs/Historical/Derived/sursa-apa.md",
+    "original_sha256": "5922f1bee776a972e0b93a4e5da7ebe168aa5876c508fd82fd8bd1d71f858273",
+    "credential_redactions": 0,
+    "preserved_sha256": "3eb2fb3c89f1cd0eb246e8a00fb46a1d1cdeac4b0f0a510e3888d0122c742834"
+  },
+  {
+    "source": "Docs/Derived/uat-frontend-context.md",
+    "preserved": "Docs/Historical/Derived/uat-frontend-context.md",
+    "original_sha256": "1a68bd62133edcf399b0a161252216259f31e40ad011a9b868b4dab30b814700",
+    "credential_redactions": 0,
+    "preserved_sha256": "4cb4e5c37d82d3962bb5a6fd1080cc39df77fa89cd83b5caf1734ac6ce2f2c52"
+  },
+  {
+    "source": "Docs/DomeniuSiUseCases.md",
+    "preserved": "Docs/Historical/DomeniuSiUseCases.md",
+    "original_sha256": "551a32cfb852ae45617a329a287b374f9d38ed741b34160788975e947b00e268",
+    "credential_redactions": 0,
+    "preserved_sha256": "befd6ff5d68ee296d0d29c65b8c3441e480f7ba48b6686b8b3977f83e0837baf",
+    "documentation_changed_lines": 1,
+    "documentation_revision": {
+      "date": "2026-11-25",
+      "prior_preserved_sha256": "fb1820b84af09ead2feec03da157d0b2e6baa4e94f5319aea7d6d9bd81a24c7d",
+      "changes": [
+        "Corrected historical relative link to Original/CategorieFolosinta.md"
+      ]
+    }
+  },
+  {
+    "source": "Docs/Original/.env.example",
+    "preserved": "Docs/Historical/Original/.env.example",
+    "original_sha256": "452d64fa655c8cfd48477266fb4c3ff0c0ae67c825015b3c55570fd1d3486343",
+    "credential_redactions": 0,
+    "preserved_sha256": "452d64fa655c8cfd48477266fb4c3ff0c0ae67c825015b3c55570fd1d3486343"
+  },
+  {
+    "source": "Docs/Original/Agricultural_Registry_Domain_Model.docx",
+    "preserved": "Docs/Historical/Original/Agricultural_Registry_Domain_Model.docx",
+    "original_sha256": "2ba5c7dc4b84b542da5a514059360e76b277129df29dfc4e76f7fbecc5727b99",
+    "credential_redactions": 0,
+    "preserved_sha256": "287028d013a4fefb0186fecffb3403f684a08e8a5826e984959e0298bc16e5f7",
+    "terminology_text_substitutions": 1,
+    "documentation_revision": {
+      "date": "2026-11-25",
+      "prior_preserved_sha256": "2ba5c7dc4b84b542da5a514059360e76b277129df29dfc4e76f7fbecc5727b99",
+      "changes": [
+        "English administrative terminology: subsidy applications; one text substitution in word/document.xml; all other package members unchanged"
+      ]
+    }
+  },
+  {
+    "source": "Docs/Original/AgricultureRegisterV1.2.md",
+    "preserved": "Docs/Historical/Original/AgricultureRegisterV1.2.md",
+    "original_sha256": "4f6739e7978c0ca2b8f6a654229957ef431471f694e742f7a567f03786a87726",
+    "credential_redactions": 0,
+    "preserved_sha256": "53a667b8e2e6cbca803df502f3acc499b480524adb3cc78fa0a58eaa90f04db7"
+  },
+  {
+    "source": "Docs/Original/ANIMAL_MANAGEMENT_DOCS.md",
+    "preserved": "Docs/Historical/Original/ANIMAL_MANAGEMENT_DOCS.md",
+    "original_sha256": "6d86930783cc6aa1a1349a32e312c403b1ef544ea72e81674aeaf51926f22f63",
+    "credential_redactions": 0,
+    "preserved_sha256": "2808f8ce805e3a88573be89632c03136e9987ed7644893a4d0bd7364ee84d84f"
+  },
+  {
+    "source": "Docs/Original/AuditDataPersonale.md",
+    "preserved": "Docs/Historical/Original/AuditDataPersonale.md",
+    "original_sha256": "1c5d0f6655d685300c89251885a9afcdc61f3ec723f8234d349090b7401a6866",
+    "credential_redactions": 0,
+    "preserved_sha256": "87d63095aeaa16e2d723fdf7351c370989aa8d2b86786473e306c13549201f8a"
+  },
+  {
+    "source": "Docs/Original/CategorieFolosinta.md",
+    "preserved": "Docs/Historical/Original/CategorieFolosinta.md",
+    "original_sha256": "50e4737d2bfd6e558a906379358895e81220d47ef32000767ece8646dfcd2525",
+    "credential_redactions": 0,
+    "preserved_sha256": "a5a0971bbf25bacc0e1ca7cceb7ac9a84e0223616b747e63a69eef357a480af9"
+  },
+  {
+    "source": "Docs/Original/CodeReview-Carina.md",
+    "preserved": "Docs/Historical/Original/CodeReview-Carina.md",
+    "original_sha256": "21657b8818e76d111f8029acc8fabf6dbeb8d0187d322203c50c66d8b5f98f04",
+    "credential_redactions": 0,
+    "preserved_sha256": "1dea94dda80aa766bcc2182fc3113309271dc3f8e6acde345f92ddf4769f08c6"
+  },
+  {
+    "source": "Docs/Original/EnumStorageResearch.md",
+    "preserved": "Docs/Historical/Original/EnumStorageResearch.md",
+    "original_sha256": "8d4f9c8703410bd0dce986467f3e6c4541c282e097d693150efe5a0d862e4f63",
+    "credential_redactions": 0,
+    "preserved_sha256": "c77de667b46daa3d69db47b761e963a9685245cce056b2394faf4013757afc63"
+  },
+  {
+    "source": "Docs/Original/ExportStatistici.md",
+    "preserved": "Docs/Historical/Original/ExportStatistici.md",
+    "original_sha256": "6e3af4e7c9116a331dd720b794959d142360c0b55c40dcac1f8da1f59365d0ad",
+    "credential_redactions": 0,
+    "preserved_sha256": "7527a6844128f0c368e2b668d8eb1b6feeaa88f470d31e0016294c72b751874d"
+  },
+  {
+    "source": "Docs/Original/Local_Development_Guide.md",
+    "preserved": "Docs/Historical/Original/Local_Development_Guide.md",
+    "original_sha256": "d89191c43c1009be094fc3a0f0ada0c55c825885be7116c9d7849cd63b91ab2c",
+    "credential_redactions": 0,
+    "preserved_sha256": "1d6b951ce85a60fbe7f487d40d5b7b7571d2b2fccc3945decc84a2054fe4e305"
+  },
+  {
+    "source": "Docs/Original/mermaid-diagram-2026-05-29.png",
+    "preserved": "Docs/Historical/Original/mermaid-diagram-2026-05-29.png",
+    "original_sha256": "84429a98f0ca26c6f3d485aebe9830b610f81a037dc3982b736112736ae300a8",
+    "credential_redactions": 0,
+    "preserved_sha256": "84429a98f0ca26c6f3d485aebe9830b610f81a037dc3982b736112736ae300a8"
+  },
+  {
+    "source": "Docs/Original/raport_contract_utilizare.md",
+    "preserved": "Docs/Historical/Original/raport_contract_utilizare.md",
+    "original_sha256": "22b4b34bdfdcaa792ee4b2a9ca2031bca09ff4967a85d694c58f8444e8a38f88",
+    "credential_redactions": 0,
+    "preserved_sha256": "7767c8c9af0d2d937adb610eb477abfc609681896f562733e85dd6dbcb732106"
+  },
+  {
+    "source": "Docs/Original/raport_scheduler_contracte.md",
+    "preserved": "Docs/Historical/Original/raport_scheduler_contracte.md",
+    "original_sha256": "bb340851e7ff785eee120c2b45c0904e63b580d70d2a4eff735d974563975644",
+    "credential_redactions": 0,
+    "preserved_sha256": "bd0b481874f28c801646d33946c3cf7225dcf476f0ce38facb7e11e7621c6237"
+  },
+  {
+    "source": "Docs/Original/README.md",
+    "preserved": "Docs/Historical/Original/README.md",
+    "original_sha256": "0e61ef4a82800c8f6e86641c2f3ef824e635171ba50fc6c9e39e2cba17084fbb",
+    "credential_redactions": 0,
+    "preserved_sha256": "cfc26832dbfb32605153d51fd72de193c55bb0b236478224877927b4e27a2228"
+  },
+  {
+    "source": "Docs/Original/RegistruAgricol.md",
+    "preserved": "Docs/Historical/Original/RegistruAgricol.md",
+    "original_sha256": "a9d520136cc6b80f2cb14dd9685dfd344e54140fe5bb29b79a38544f48ab8d21",
+    "credential_redactions": 0,
+    "preserved_sha256": "445af755bd43ade17a3951e82a22a79d86b28fc71da7f4e1b01fff0dce1070eb",
+    "documentation_changed_lines": 1,
+    "documentation_revision": {
+      "date": "2026-11-25",
+      "prior_preserved_sha256": "965c3ad9798c5e87b6e34c32edd4c8c4093018103b4765e787e26dc4f98d1a6b",
+      "changes": [
+        "Contextual English administrative application terminology update; Romanian wording, source identifiers and technical HTTP terminology preserved"
+      ]
+    }
+  },
+  {
+    "source": "Docs/Original/ResearchTaxeImpozite.md",
+    "preserved": "Docs/Historical/Original/ResearchTaxeImpozite.md",
+    "original_sha256": "fc2af05c2eee90d1dfa8be887d6f36ce0b96764faacab140946293c864cd6751",
+    "credential_redactions": 0,
+    "preserved_sha256": "e5761f16d8b35b2a2c7d7c6ec20f7c5a08935c1da95861f3c32f1575c2c3e052"
+  },
+  {
+    "source": "Docs/Original/RoadmapRegistrulAgricol.md",
+    "preserved": "Docs/Historical/Original/RoadmapRegistrulAgricol.md",
+    "original_sha256": "e8d4fede03882922262123a7db410beb78a59429772369566d4e6cf987d6b736",
+    "credential_redactions": 0,
+    "preserved_sha256": "adc9e84698e6d82704d43c16c93bd639175395e32f971fc1da93451cc168f6fe"
+  },
+  {
+    "source": "Docs/Original/security_and_code_review.md",
+    "preserved": "Docs/Historical/Original/security_and_code_review.md",
+    "original_sha256": "1fdeebe0f3c04b895443de29e1837de5b69815090b757e08723340fa892063eb",
+    "credential_redactions": 0,
+    "preserved_sha256": "2d3c437cdfc491ca06b936a03aca4911a96391f35d64f665c47d0b94094c7aec"
+  },
+  {
+    "source": "Docs/Original/SoilTypeDocumentation.md",
+    "preserved": "Docs/Historical/Original/SoilTypeDocumentation.md",
+    "original_sha256": "b38dbcea2ef584f01844ba8fe4e39d7fea4c0bb579aac0a995f8aa0cd60edea6",
+    "credential_redactions": 0,
+    "preserved_sha256": "4cd31d7417e84f2d5cfebe0768cbf65399aef7e44e4f51f4dc96315998ff94c2"
+  },
+  {
+    "source": "DOCUMENTATIE_MAIL_SI_MODIFICARI.md",
+    "preserved": "Docs/Historical/DOCUMENTATIE_MAIL_SI_MODIFICARI.md",
+    "original_sha256": "02ed54dfc8259302e246380460380d6b1b14a58401eb085d59143181373384e2",
+    "credential_redactions": 2,
+    "preserved_sha256": "e777cdba2fb7dbfc9745ec3492319d557e7b5ab1341c1def4417a6c4b1d20b47"
+  },
+  {
+    "source": "walkthrough.md",
+    "preserved": "Docs/Historical/walkthrough.md",
+    "original_sha256": "fd9a59e394cbafd8e056c0c3861a6e314b4fbceb764c2a38221db1113e4faf74",
+    "credential_redactions": 0,
+    "preserved_sha256": "26b4d50efc4dff313c3f4fd4cae086d51ff7b6961e72d13bfd25ce8f5a63fe3d"
+  },
+  {
+    "source": "README.md",
+    "preserved": "Docs/Historical/recovery-root-README.md",
+    "original_sha256": "0e61ef4a82800c8f6e86641c2f3ef824e635171ba50fc6c9e39e2cba17084fbb",
+    "credential_redactions": 0,
+    "preserved_sha256": "cfc26832dbfb32605153d51fd72de193c55bb0b236478224877927b4e27a2228"
+  }
+]

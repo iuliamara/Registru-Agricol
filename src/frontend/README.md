@@ -1,4 +1,17 @@
-# Frontend
+# Public Institutions Portal
+
+This is the independent Angular 18 application for institutional agricultural register operations, tenant administration, and super-administration. The citizen-facing Angular application is in the sibling `portal-cetateni` directory. Both use the shared Spring Boot backend.
+
+[Full functional guide](../../Docs/Applications/Public-Institutions-Portal.md) · [Setup and configuration](../../Docs/Development.md) · [Testing limits](../../Docs/Testing.md) · [Source and routes](../../Docs/Reference/Source-Inventory.md)
+
+Run dependency commands in this directory. The dev proxy targets the backend on port 8080. For simultaneous application development use institution port 4200 and citizen port 4202; these are independent dev servers.
+
+```powershell
+npm ci
+npm start -- --port 4200
+```
+
+Production builds generate Romanian and English outputs consumed by this application's Nginx configuration. The route table currently has no route guards; backend role checks remain essential. The test target references a missing `tsconfig.spec.json`, so the test command below is the configured entry point rather than a claim of passing tests. The original CLI guidance is retained below, with its pre-expansion text also preserved in `Docs/Historical/pre-expansion/`.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.21.
 

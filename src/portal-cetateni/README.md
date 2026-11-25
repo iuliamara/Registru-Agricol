@@ -1,4 +1,17 @@
-# PortalClienti
+# Citizens Portal
+
+This is the independent Angular 21 citizen-facing application: account registration/login, profile, administrative service applications, personal history, public tracking, and live alerts. Institutional record management and super-administration belong to the separate sibling `frontend` application.
+
+[Full functional guide and screenshots](../../Docs/Applications/Citizens-Portal.md) · [Setup](../../Docs/Development.md) · [Tests and limits](../../Docs/Testing.md)
+
+Run commands in this directory. The development proxy targets the shared backend at localhost:8080. Use port 4202 when the Institutions Portal runs on 4200:
+
+```powershell
+npm ci
+npm start -- --port 4202
+```
+
+The configured test builder uses Vitest/jsdom. Existing tests are largely generated smoke tests; no e2e runner is configured. The CLI examples below are retained as scaffolding guidance, not proof that every command/test is configured or passes. Full pre-expansion text is also preserved in `Docs/Historical/pre-expansion/`.
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.2.18.
 

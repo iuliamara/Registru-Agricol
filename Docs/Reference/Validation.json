@@ -1,0 +1,107 @@
+{
+  "audit_date": "2026-11-25",
+  "repository_head": "f4b39c0",
+  "active_markdown_files_checked": 23,
+  "local_links_images_anchors_checked": 1340,
+  "link_or_fence_errors": [],
+  "audited_source_configuration_files": 608,
+  "source_configuration_hash_differences": [],
+  "controllers": 42,
+  "method_mapping_annotations": 192,
+  "expanded_api_entries": 200,
+  "migration_files": 71,
+  "missing_migration_catalog_entries": [],
+  "model_dto_payload_files": 113,
+  "missing_dictionary_source_entries": [],
+  "screenshots": 21,
+  "screenshots_missing_from_application_guides": [],
+  "historical_files_preserved": 58,
+  "historical_preservation_errors": [],
+  "credential_values_redacted": 2,
+  "mermaid_blocks": [
+    {
+      "file": "README.md",
+      "type": "flowchart TB"
+    },
+    {
+      "file": "Docs/Architecture.md",
+      "type": "flowchart LR"
+    },
+    {
+      "file": "Docs/Architecture.md",
+      "type": "sequenceDiagram"
+    },
+    {
+      "file": "Docs/Database.md",
+      "type": "erDiagram"
+    },
+    {
+      "file": "Docs/Multi-Tenancy.md",
+      "type": "sequenceDiagram"
+    },
+    {
+      "file": "Docs/Workflows.md",
+      "type": "flowchart LR"
+    },
+    {
+      "file": "Docs/Workflows.md",
+      "type": "flowchart TB"
+    },
+    {
+      "file": "Docs/Workflows.md",
+      "type": "sequenceDiagram"
+    }
+  ],
+  "mermaid_validation": "Structural checks only; no local Mermaid parser or live GitHub rendering",
+  "application_builds_tests": "Not run: documentation-only changes",
+  "external_state_mutations": "None",
+  "terminology_consistency": {
+    "date": "2026-11-25",
+    "text_documents_reviewed": 80,
+    "text_documents_updated": 26,
+    "updated_text_documents": [
+      "Docs/Applications/Citizens-Portal.md",
+      "Docs/Applications/Public-Institutions-Portal.md",
+      "Docs/Architecture.md",
+      "Docs/Audit.md",
+      "Docs/Backend.md",
+      "Docs/Database.md",
+      "Docs/Development.md",
+      "Docs/Historical/Archive/roadmap",
+      "Docs/Historical/BranchesDocumentation.md",
+      "Docs/Historical/BusinessAnalysis/Cereri.md",
+      "Docs/Historical/BusinessAnalysis/PortalCetateni.md",
+      "Docs/Historical/Derived/cultura-parcela.md",
+      "Docs/Historical/Derived/evidenta-pomi.md",
+      "Docs/Historical/Derived/gdpr-audit-logging.md",
+      "Docs/Historical/DomeniuSiUseCases.md",
+      "Docs/Historical/Original/RegistruAgricol.md",
+      "Docs/Historical/README.md",
+      "Docs/Implementation-Status.md",
+      "Docs/Multi-Tenancy.md",
+      "Docs/README.md",
+      "Docs/Reference/API.md",
+      "Docs/screenshots/README.md",
+      "Docs/Testing.md",
+      "Docs/Workflows.md",
+      "README.md",
+      "src/portal-cetateni/README.md"
+    ],
+    "word_documents_updated": 1,
+    "word_text_substitutions": 1,
+    "local_links_images_anchors_checked": 1355,
+    "historical_relative_links_repaired": 2,
+    "heading_links_updated": 2,
+    "source_configuration_files_unchanged": 608,
+    "historical_original_files_unchanged": 58,
+    "screenshots_unchanged": 21,
+    "technical_request_phrases_before": 8,
+    "technical_request_phrases_after": 13,
+    "heading_hierarchy_code_examples_inline_identifiers_romanian_labels_and_image_targets": "Preserved",
+    "word_formatting_and_other_zip_parts": "Unchanged; only the approved text substitution in word/document.xml",
+    "word_visual_rendering": "Attempted; unavailable because LibreOffice soffice.exe is not installed",
+    "application_tests": "Not run: documentation-only terminology changes",
+    "commit_or_push": "Neither performed",
+    "errors": []
+  }
+}

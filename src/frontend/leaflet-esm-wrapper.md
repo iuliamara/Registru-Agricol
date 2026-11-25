@@ -1,5 +1,7 @@
 # Leaflet ESM Wrapper
 
+> **Current implementation note (25 November 2026):** the wrapper and typing/alias files are present, but active `ParcelaMapComponent` and `OsmMapComponent` still import directly from `leaflet`. `angular.json` permits Leaflet CommonJS output. The conversion guidance below records the original rationale and intended usage; it is not evidence that every map import was converted. Current maps use Leaflet/OpenStreetMap and JSONB GeoJSON persistence. See [GIS implementation](../../Docs/Applications/Public-Institutions-Portal.md#gis-and-maps). The complete pre-expansion version is preserved in the historical collection.
+
 ## Ce am adăugat
 
 1. Un wrapper ESM pentru Leaflet:
